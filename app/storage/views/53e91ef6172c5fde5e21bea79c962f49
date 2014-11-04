@@ -6,7 +6,7 @@
     <body>
         <?php echo $__env->make('includes.topmenu', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
-        <?php echo $__env->yieldContent('body'); ?>
+
 
         <?php echo HTML::script('http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'); ?>
 
@@ -14,5 +14,11 @@
 
         <?php echo HTML::script('js/slidein-menu.js'); ?>
 
+
+        <?php echo $__env->yieldContent('body'); ?>
+
+        <div class="well">
+        <p>Test</p>
+        </div>
     </body>
 </html>
