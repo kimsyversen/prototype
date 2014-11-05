@@ -1,0 +1,25 @@
+>sudo vim /etc/apache2/extra/httpd-vhosts.conf
+
+
+<VirtualHost *:80>
+    DocumentRoot "/Users/kim/Sites/prototype/public/"
+    ServerAdmin kim.syversen@gmail.com
+</VirtualHost>
+
+
+>sudo vim /etc/hosts
+ 7 127.0.0.1       localhost
+ 8 127.0.0.1       example.com
+ 9 255.255.255.255 broadcasthost
+10 ::1             localhost
+~
+
+
+(fjern kommentarer)
+> sudo nano /etc/apache2/httpd.conf
+
+Include /private/etc/apache2/extra/httpd-vhosts.conf
+LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
+LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+
+sudo apachectl restart

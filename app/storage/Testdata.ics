@@ -1,0 +1,318 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+METHOD:PUBLISH
+X-WR-CALNAME:Testdata
+X-WR-TIMEZONE:Europe/Oslo
+X-APPLE-CALENDAR-COLOR:#CC73E1
+BEGIN:VTIMEZONE
+TZID:Europe/Oslo
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+DTSTART:19810329T020000
+TZNAME:GMT+2
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART:19961027T030000
+TZNAME:GMT+1
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20141105T155036Z
+UID:0DF20B63-7995-4021-A8B4-AF0642D32CF7
+URL;VALUE=URI:www.example.com/program%23
+DTEND;TZID=Europe/Oslo:20141110T112000
+TRANSP:OPAQUE
+SUMMARY:Kurs 1 - Prosjektveiviseren
+DTSTART;TZID=Europe/Oslo:20141110T093000
+DTSTAMP:20141105T155036Z
+LOCATION:Cosmos 3A
+SEQUENCE:0
+DESCRIPTION:Test
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141105T155129Z
+UID:E8987628-ADDC-4018-87BD-D74AA9DB3EB8
+URL;VALUE=URI:www.example.com/program%23
+DTEND;TZID=Europe/Oslo:20141110T090000
+TRANSP:OPAQUE
+SUMMARY:Kurs 1 - Prosjektveiviseren
+DTSTART;TZID=Europe/Oslo:20141110T080000
+DTSTAMP:20141105T155036Z
+LOCATION:Cosmos 3A
+SEQUENCE:0
+DESCRIPTION:Det er krevende å gjennomføre digitaliseringsprosjekter på e
+ n god måte og det er enda vanskeligere å dokumentere at man tar ut de fo
+ rventede gevinster. God planlegging er en forutsetning for å iverksette 
+ de riktige tiltak og å sikre bedre gjennomføringsevne. Difi lanserte en 
+ ny versjon av Prosjektveiviseren.no i 2012. Kurset vil gi en innføring i
+  hvordan prosjektmetodikk og andre virkemidler kan bidra til flere velly
+ kkede digitaliseringsprosjekter.\n\nProsjektveiviseren 2.0. er en anbefa
+ lt prosjektmodell for IKT prosjekter i offentlig sektor som blant annet 
+ skal styrke planlegging\, styringen\, kvalitet og gevinstrealisering i o
+ ffentlige IKT-prosjekter. Prosjektveiviseren er basert på metodikk fra P
+ RINCE2. PRINCE2 er en prosjektledelsesmetode som brukes over hele verden
+  og har sertifisering som anses som beste praksis for gjennomføring av p
+ rosjekter. Metodkikken kan tilpasses alle typer prosjekter uavhengig av 
+ størrelse\, bransje\, organisasjonsform\, geografi og kultur.\n\n\n
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141105T155131Z
+UID:F75AB3A9-A840-4BB0-9BF9-7A08DD77CA6B
+URL;VALUE=URI:www.example.com/program%23
+DTEND;TZID=Europe/Oslo:20141110T090000
+TRANSP:OPAQUE
+SUMMARY:Kurs 1 - Prosjektveiviseren
+DTSTART;TZID=Europe/Oslo:20141110T080000
+DTSTAMP:20141105T155036Z
+LOCATION:Cosmos 3A
+SEQUENCE:0
+DESCRIPTION:Det er krevende å gjennomføre digitaliseringsprosjekter på e
+ n god måte og det er enda vanskeligere å dokumentere at man tar ut de fo
+ rventede gevinster. God planlegging er en forutsetning for å iverksette 
+ de riktige tiltak og å sikre bedre gjennomføringsevne. Difi lanserte en 
+ ny versjon av Prosjektveiviseren.no i 2012. Kurset vil gi en innføring i
+  hvordan prosjektmetodikk og andre virkemidler kan bidra til flere velly
+ kkede digitaliseringsprosjekter.\n\nProsjektveiviseren 2.0. er en anbefa
+ lt prosjektmodell for IKT prosjekter i offentlig sektor som blant annet 
+ skal styrke planlegging\, styringen\, kvalitet og gevinstrealisering i o
+ ffentlige IKT-prosjekter. Prosjektveiviseren er basert på metodikk fra P
+ RINCE2. PRINCE2 er en prosjektledelsesmetode som brukes over hele verden
+  og har sertifisering som anses som beste praksis for gjennomføring av p
+ rosjekter. Metodkikken kan tilpasses alle typer prosjekter uavhengig av 
+ størrelse\, bransje\, organisasjonsform\, geografi og kultur.\n\n\n
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141105T155139Z
+UID:62ADEBE4-83BD-4EAF-8940-21DDE21FC3DD
+URL;VALUE=URI:www.example.com/program%23
+DTEND;TZID=Europe/Oslo:20141110T090000
+TRANSP:OPAQUE
+SUMMARY:Kurs 1 - Prosjektveiviseren
+DTSTART;TZID=Europe/Oslo:20141110T080000
+DTSTAMP:20141105T155036Z
+LOCATION:Cosmos 3A
+SEQUENCE:0
+DESCRIPTION:Det er krevende å gjennomføre digitaliseringsprosjekter på e
+ n god måte og det er enda vanskeligere å dokumentere at man tar ut de fo
+ rventede gevinster. God planlegging er en forutsetning for å iverksette 
+ de riktige tiltak og å sikre bedre gjennomføringsevne. Difi lanserte en 
+ ny versjon av Prosjektveiviseren.no i 2012. Kurset vil gi en innføring i
+  hvordan prosjektmetodikk og andre virkemidler kan bidra til flere velly
+ kkede digitaliseringsprosjekter.\n\nProsjektveiviseren 2.0. er en anbefa
+ lt prosjektmodell for IKT prosjekter i offentlig sektor som blant annet 
+ skal styrke planlegging\, styringen\, kvalitet og gevinstrealisering i o
+ ffentlige IKT-prosjekter. Prosjektveiviseren er basert på metodikk fra P
+ RINCE2. PRINCE2 er en prosjektledelsesmetode som brukes over hele verden
+  og har sertifisering som anses som beste praksis for gjennomføring av p
+ rosjekter. Metodkikken kan tilpasses alle typer prosjekter uavhengig av 
+ størrelse\, bransje\, organisasjonsform\, geografi og kultur.\n\n\n
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141105T155141Z
+UID:B3EA6435-0018-4E05-BF94-E6EC881EEC21
+URL;VALUE=URI:www.example.com/program%23
+DTEND;TZID=Europe/Oslo:20141110T090000
+TRANSP:OPAQUE
+SUMMARY:Kurs 1 - Prosjektveiviseren
+DTSTART;TZID=Europe/Oslo:20141110T080000
+DTSTAMP:20141105T155036Z
+LOCATION:Cosmos 3A
+SEQUENCE:0
+DESCRIPTION:Det er krevende å gjennomføre digitaliseringsprosjekter på e
+ n god måte og det er enda vanskeligere å dokumentere at man tar ut de fo
+ rventede gevinster. God planlegging er en forutsetning for å iverksette 
+ de riktige tiltak og å sikre bedre gjennomføringsevne. Difi lanserte en 
+ ny versjon av Prosjektveiviseren.no i 2012. Kurset vil gi en innføring i
+  hvordan prosjektmetodikk og andre virkemidler kan bidra til flere velly
+ kkede digitaliseringsprosjekter.\n\nProsjektveiviseren 2.0. er en anbefa
+ lt prosjektmodell for IKT prosjekter i offentlig sektor som blant annet 
+ skal styrke planlegging\, styringen\, kvalitet og gevinstrealisering i o
+ ffentlige IKT-prosjekter. Prosjektveiviseren er basert på metodikk fra P
+ RINCE2. PRINCE2 er en prosjektledelsesmetode som brukes over hele verden
+  og har sertifisering som anses som beste praksis for gjennomføring av p
+ rosjekter. Metodkikken kan tilpasses alle typer prosjekter uavhengig av 
+ størrelse\, bransje\, organisasjonsform\, geografi og kultur.\n\n\n
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141105T155141Z
+UID:4B2F62DD-ABB5-4F89-8A27-3078702709E7
+URL;VALUE=URI:www.example.com/program%23
+DTEND;TZID=Europe/Oslo:20141110T090000
+TRANSP:OPAQUE
+SUMMARY:Kurs 1 - Prosjektveiviseren
+DTSTART;TZID=Europe/Oslo:20141110T080000
+DTSTAMP:20141105T155036Z
+LOCATION:Cosmos 3A
+SEQUENCE:0
+DESCRIPTION:Det er krevende å gjennomføre digitaliseringsprosjekter på e
+ n god måte og det er enda vanskeligere å dokumentere at man tar ut de fo
+ rventede gevinster. God planlegging er en forutsetning for å iverksette 
+ de riktige tiltak og å sikre bedre gjennomføringsevne. Difi lanserte en 
+ ny versjon av Prosjektveiviseren.no i 2012. Kurset vil gi en innføring i
+  hvordan prosjektmetodikk og andre virkemidler kan bidra til flere velly
+ kkede digitaliseringsprosjekter.\n\nProsjektveiviseren 2.0. er en anbefa
+ lt prosjektmodell for IKT prosjekter i offentlig sektor som blant annet 
+ skal styrke planlegging\, styringen\, kvalitet og gevinstrealisering i o
+ ffentlige IKT-prosjekter. Prosjektveiviseren er basert på metodikk fra P
+ RINCE2. PRINCE2 er en prosjektledelsesmetode som brukes over hele verden
+  og har sertifisering som anses som beste praksis for gjennomføring av p
+ rosjekter. Metodkikken kan tilpasses alle typer prosjekter uavhengig av 
+ størrelse\, bransje\, organisasjonsform\, geografi og kultur.\n\n\n
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141105T155142Z
+UID:7F923FE6-DC28-4BF7-A10A-1432106B2AAE
+URL;VALUE=URI:www.example.com/program%23
+DTEND;TZID=Europe/Oslo:20141110T090000
+TRANSP:OPAQUE
+SUMMARY:Kurs 1 - Prosjektveiviseren
+DTSTART;TZID=Europe/Oslo:20141110T080000
+DTSTAMP:20141105T155036Z
+LOCATION:Cosmos 3A
+SEQUENCE:0
+DESCRIPTION:Det er krevende å gjennomføre digitaliseringsprosjekter på e
+ n god måte og det er enda vanskeligere å dokumentere at man tar ut de fo
+ rventede gevinster. God planlegging er en forutsetning for å iverksette 
+ de riktige tiltak og å sikre bedre gjennomføringsevne. Difi lanserte en 
+ ny versjon av Prosjektveiviseren.no i 2012. Kurset vil gi en innføring i
+  hvordan prosjektmetodikk og andre virkemidler kan bidra til flere velly
+ kkede digitaliseringsprosjekter.\n\nProsjektveiviseren 2.0. er en anbefa
+ lt prosjektmodell for IKT prosjekter i offentlig sektor som blant annet 
+ skal styrke planlegging\, styringen\, kvalitet og gevinstrealisering i o
+ ffentlige IKT-prosjekter. Prosjektveiviseren er basert på metodikk fra P
+ RINCE2. PRINCE2 er en prosjektledelsesmetode som brukes over hele verden
+  og har sertifisering som anses som beste praksis for gjennomføring av p
+ rosjekter. Metodkikken kan tilpasses alle typer prosjekter uavhengig av 
+ størrelse\, bransje\, organisasjonsform\, geografi og kultur.\n\n\n
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141105T155210Z
+UID:C865A7F7-B5B3-4C1A-B9A9-0352E77B090E
+URL;VALUE=URI:www.example.com/program%23
+DTEND;TZID=Europe/Oslo:20141110T112000
+TRANSP:OPAQUE
+SUMMARY:Kurs 3 - Digital post 
+DTSTART;TZID=Europe/Oslo:20141110T093000
+DTSTAMP:20141105T155036Z
+LOCATION:Cosmos 3C
+SEQUENCE:0
+DESCRIPTION:Test
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141105T155243Z
+UID:A80957FC-1E19-446E-A53C-D5C19098D4B7
+URL;VALUE=URI:www.example.com/program%23
+DTEND;TZID=Europe/Oslo:20141110T112000
+TRANSP:OPAQUE
+SUMMARY:Kurs 2 - Porteføljestyring
+DTSTART;TZID=Europe/Oslo:20141110T093000
+DTSTAMP:20141105T155036Z
+LOCATION:Cosmos 3B
+SEQUENCE:0
+DESCRIPTION:Test
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141105T155303Z
+UID:CA61FAEF-1B41-45FB-B378-07BDF952F00D
+URL;VALUE=URI:www.example.com/program%23
+DTEND;TZID=Europe/Oslo:20141110T112000
+TRANSP:OPAQUE
+SUMMARY:Kurs 6 - Big data og offentlig sektor
+DTSTART;TZID=Europe/Oslo:20141110T093000
+DTSTAMP:20141105T155036Z
+LOCATION:Cosmos 3B
+SEQUENCE:0
+DESCRIPTION:Test
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141105T155327Z
+UID:FDEDD59A-2EFD-42E1-BE52-A061AF6C3704
+URL;VALUE=URI:www.example.com/program%23
+DTEND;TZID=Europe/Oslo:20141110T112000
+TRANSP:OPAQUE
+SUMMARY:Kurs 4 - Brukeren i sentrum - gode argumenter for universell utf
+ orming
+DTSTART;TZID=Europe/Oslo:20141110T093000
+DTSTAMP:20141105T155036Z
+LOCATION:Cosmos 3B
+SEQUENCE:0
+DESCRIPTION:Test
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141105T155416Z
+UID:0324369D-AF76-439B-A0F6-730B726E1F14
+URL;VALUE=URI:www.example.com/program%23
+DTEND;TZID=Europe/Oslo:20141110T112000
+TRANSP:OPAQUE
+SUMMARY:Kurs 6 - Big data og offentlig sektor
+DTSTART;TZID=Europe/Oslo:20141110T093000
+DTSTAMP:20141105T155036Z
+LOCATION:Cosmos 3B
+SEQUENCE:0
+DESCRIPTION:Big data er et begrep alle som har fulgt med på diskusjoner 
+ rundt digitalisering har møtt på de siste årene. Vi vil i dette kurset g
+ i innsikt hva som ligger i begrepet Big data og gi en overordnet beskriv
+ else av teknologien som ligger til grunn.\n\nVi kommer særlig til å vise
+  fram anvendelser av teknologien med eksempler fra både privat og offent
+ lig sektor. Vi kjenner alle til hvordan Amazon anbefaler deg produkter p
+ å basis av hva brukere som ligner på deg har kjøpt. Hvilke offentlige vi
+ rksomheter kan ha størst nytte av å tenke som Amazon?\n\nEksempler på an
+ vendelser som passer inn i Big data-begrepet er:\n\nanbefalingsteknologi
+ \npersonalisering\nlokasjonsbaserte tjenester\nautomatiserte beslutninge
+ r\n
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141105T155444Z
+UID:C70DA285-0F82-4B9A-92A2-783E0E99343E
+DTEND;TZID=Europe/Oslo:20141110T133000
+TRANSP:OPAQUE
+SUMMARY:Lunsj
+DTSTART;TZID=Europe/Oslo:20141110T113000
+DTSTAMP:20141105T155444Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141105T155503Z
+UID:E575B3CF-6B81-4A45-903E-62841739CEF2
+DTEND;TZID=Europe/Oslo:20141110T150000
+TRANSP:OPAQUE
+SUMMARY:Workshop 2 - Informasjonsdeling 
+DTSTART;TZID=Europe/Oslo:20141110T140000
+DTSTAMP:20141105T155503Z
+LOCATION:Cosmos 3A
+SEQUENCE:0
+DESCRIPTION:Test
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141105T155537Z
+UID:45C4AC74-5F25-4058-99C2-74B6E52782CF
+DTEND;TZID=Europe/Oslo:20141110T150000
+TRANSP:OPAQUE
+SUMMARY:Workshop 1 - EDAG - den største IT-reformen i Norge i 2014/2015 
+ 
+DTSTART;TZID=Europe/Oslo:20141110T140000
+DTSTAMP:20141105T155503Z
+LOCATION:Cosmos 3D
+SEQUENCE:0
+DESCRIPTION:Test
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141105T155625Z
+UID:40E295CB-A19B-4914-B459-9F1789533FAB
+DTEND;TZID=Europe/Oslo:20141110T150000
+TRANSP:OPAQUE
+SUMMARY:Workshop 3 - Forenkle\, forenkle\, forenkle - hvor enkelt vil du
+  ha det?
+DTSTART;TZID=Europe/Oslo:20141110T140000
+DTSTAMP:20141105T155503Z
+LOCATION:Cosmos 3D
+SEQUENCE:0
+DESCRIPTION:Test
+END:VEVENT
+END:VCALENDAR

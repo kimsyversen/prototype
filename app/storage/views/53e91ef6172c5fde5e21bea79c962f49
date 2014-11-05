@@ -4,16 +4,7 @@
         <?php echo $__env->make('includes.head', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     </head>
     <body>
-        <?php echo $__env->make('includes.topmenu', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-
-
-
-        <?php echo HTML::script('http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'); ?>
-
-        <?php echo HTML::script('http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js'); ?>
-
-        <?php echo HTML::script('js/slidein-menu.js'); ?>
-
+        <?php echo $__env->make('includes.menu', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
         <?php echo $__env->yieldContent('body'); ?>
 
