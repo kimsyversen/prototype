@@ -48,17 +48,17 @@ LOCATION:Cosmos 3A
 SEQUENCE:0
 DESCRIPTION:Det er krevende å gjennomføre digitaliseringsprosjekter på e
  n god måte og det er enda vanskeligere å dokumentere at man tar ut de fo
- rventede gevinster. God planlegging er en forutsetning for å iverksette 
- de riktige tiltak og å sikre bedre gjennomføringsevne. Difi lanserte en 
+ rventede gevinster. God planlegging er en forutsetning for å iverksette
+ de riktige tiltak og å sikre bedre gjennomføringsevne. Difi lanserte en
  ny versjon av Prosjektveiviseren.no i 2012. Kurset vil gi en innføring i
   hvordan prosjektmetodikk og andre virkemidler kan bidra til flere velly
  kkede digitaliseringsprosjekter.\n\nProsjektveiviseren 2.0. er en anbefa
- lt prosjektmodell for IKT prosjekter i offentlig sektor som blant annet 
+ lt prosjektmodell for IKT prosjekter i offentlig sektor som blant annet
  skal styrke planlegging\, styringen\, kvalitet og gevinstrealisering i o
  ffentlige IKT-prosjekter. Prosjektveiviseren er basert på metodikk fra P
  RINCE2. PRINCE2 er en prosjektledelsesmetode som brukes over hele verden
   og har sertifisering som anses som beste praksis for gjennomføring av p
- rosjekter. Metodkikken kan tilpasses alle typer prosjekter uavhengig av 
+ rosjekter. Metodkikken kan tilpasses alle typer prosjekter uavhengig av
  størrelse\, bransje\, organisasjonsform\, geografi og kultur.\n\n\n
 END:VEVENT
 BEGIN:VEVENT
@@ -67,25 +67,16 @@ UID:F75AB3A9-A840-4BB0-9BF9-7A08DD77CA6B
 URL;VALUE=URI:www.example.com/program%23
 DTEND;TZID=Europe/Oslo:20141110T090000
 TRANSP:OPAQUE
-SUMMARY:Kurs 1 - Prosjektveiviseren
+SUMMARY:Kurs 2 - Prosjektveiviseren
 DTSTART;TZID=Europe/Oslo:20141110T080000
 DTSTAMP:20141105T155036Z
 LOCATION:Cosmos 3A
 SEQUENCE:0
-DESCRIPTION:Det er krevende å gjennomføre digitaliseringsprosjekter på e
- n god måte og det er enda vanskeligere å dokumentere at man tar ut de fo
- rventede gevinster. God planlegging er en forutsetning for å iverksette 
- de riktige tiltak og å sikre bedre gjennomføringsevne. Difi lanserte en 
- ny versjon av Prosjektveiviseren.no i 2012. Kurset vil gi en innføring i
-  hvordan prosjektmetodikk og andre virkemidler kan bidra til flere velly
- kkede digitaliseringsprosjekter.\n\nProsjektveiviseren 2.0. er en anbefa
- lt prosjektmodell for IKT prosjekter i offentlig sektor som blant annet 
- skal styrke planlegging\, styringen\, kvalitet og gevinstrealisering i o
- ffentlige IKT-prosjekter. Prosjektveiviseren er basert på metodikk fra P
- RINCE2. PRINCE2 er en prosjektledelsesmetode som brukes over hele verden
-  og har sertifisering som anses som beste praksis for gjennomføring av p
- rosjekter. Metodkikken kan tilpasses alle typer prosjekter uavhengig av 
- størrelse\, bransje\, organisasjonsform\, geografi og kultur.\n\n\n
+DESCRIPTION:For å sikre god IKT-styring er det behov for gode rutiner og kontroll i alle ledd. Det eksisterer mange ulike «beste praksis» rammeverk som har til formål å bidra til bedre IKT-styring, men ofte med ulik innfallsvinkel.Uansett fagkompetanse internt i et prosjekt-, program-, portefølje-, eller driftsmiljø er man også avhengig klare rolle- og ansvarsdefinisjoner i linjeorganisasjonen for å sikre vellykket styring.
+
+            Under årets NOKIOS konferanse ønsker vi å gå nærmere inn på noen av disse rammeverkene, både for å se på hvordan disse kan bidra til økt kvalitet og hvilke utfordringer man møter. I tillegg til god faglig kompetanse, gjenbruk der dette er hensiktsmessig, og kontinuerlig læring, får vi en god “Styringsmodenhet” slik at vi sikrer at utviklingen av den digitale modenheten går slik vi ønsker. Utviklingen av styringsmodenheten bør bedres i Norge, og her er eksempler på at en konsentrert innsats hjelper. DIFI har etablert et nettverk for virksomheter i offentlig sektor som sammen jobber med å utvikle god praksis. DIFI bidrar inn i dette nettverket med sikte på å spre erfaring og kompetanse mellom virksomheter i offentlig sektor.
+
+            Før Skatteetaten, Husbanken og kommunene presenterer sine erfaringer som viser eksempler på en konsentrert innsats på dette området, vil Ingar Brauti gi en overordnet beskrivelse av porteføljestyring i forhold til forvaltning/daglig drift, en overordnet sammenheng mellom beste praksis rammeverk, samt introduksjon av fem prinsipper, og tolv praksiser i porteføljestyring i henhold til. Management of Portfolios (MoP®)
 END:VEVENT
 BEGIN:VEVENT
 CREATED:20141105T155139Z

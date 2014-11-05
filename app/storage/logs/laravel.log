@@ -1420,3 +1420,357 @@ Stack trace:
 #16 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
 #17 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
 #18 {main} [] []
+[2014-11-05 17:21:09] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '1' (T_LNUMBER), expecting ',' or ';'' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:68
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-05 17:21:27] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '1' (T_LNUMBER), expecting ',' or ';'' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:68
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-05 17:21:28] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '1' (T_LNUMBER), expecting ',' or ';'' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:68
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-05 17:22:42] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:27:41] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:27:47] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:27:51] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:27:53] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:28:21] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:29:04] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:29:07] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:29:08] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:30:11] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:30:13] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:30:57] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:30:58] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:32:28] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:33:04] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:33:07] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:33:08] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:33:22] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:34:05] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:34:52] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:36:49] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}'' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:55
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-05 17:36:50] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}'' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:55
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-05 17:37:27] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:40:45] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:71
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-05 17:41:25] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:42:47] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-05 17:51:32] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<'' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:39
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-05 17:53:43] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<'' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:39
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []

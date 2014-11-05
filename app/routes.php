@@ -15,3 +15,6 @@ Route::get('/home', function() { return View::make('home'); } );
 
 
 Route::get('/program', function()  { return View::make('program'); });
+
+
+Route::get('/program/1', function()  { return View::make('program.1'); });
