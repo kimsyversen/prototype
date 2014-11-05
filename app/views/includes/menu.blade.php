@@ -19,8 +19,8 @@
           </form>
      
     <ul class="nav navbar-nav">
-     <li class="active"><a href="home">Home</a></li>
-     <li><a href="program">Program</a></li>
+     <li class="active"><a href="/home">Home</a></li>
+     <li><a href="/program">Program</a></li>
      <li><a href="#contact">Contact</a></li>
      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
       <ul class="dropdown-menu">
