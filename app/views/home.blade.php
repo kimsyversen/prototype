@@ -8,8 +8,10 @@
 
         @yield('body')
 
-        <div class="well">
-        <p>Test</p>
-        </div>
+<div class="jumbotron">
+  <h1>Hello, participant!</h1>
+  <p>Welcome to aaaaaaaaaaawsome conference</p>
+
+</div>
     </body>
 </html>

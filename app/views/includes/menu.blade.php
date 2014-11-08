@@ -21,12 +21,12 @@
     <ul class="nav navbar-nav">
      <li><a href="/home">Home</a></li>
      <li><a href="/program">Conference program</a></li>
-     <li><a href="#">Personal agenda</a></li>
+     <li><a href="/profile/agenda">Personal agenda</a></li>
      <li><a href="/participants">Participant list</a></li>
      <li><a href="/participants2">Participant list 2</a></li>
      <li><a href="/participant-profile">Participant profile</a></li>
-     <li><a href="#">Maps</a></li>
-     <li><a href="#">Personal inbox</a></li>
+     <li><a href="/map">Maps</a></li>
+     <li><a href="/profile/messages">Personal inbox</a></li>
 
      <!-- <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
       <ul class="dropdown-menu">

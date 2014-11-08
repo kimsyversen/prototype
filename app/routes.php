@@ -26,4 +26,8 @@ Route::get('/participants2', function()  { return View::make('participant-list2'
 Route::get('/participant-profile', function()  { return View::make('participant-profile'); });
 
 
+Route::get('/map', function()  { return View::make('maps'); });
 
+Route::get('/profile/messages', function()  { return View::make('profile-inbox'); });
+
+Route::get('/profile/agenda', function()  { return View::make('personal-agenda'); });
