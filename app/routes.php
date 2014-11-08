@@ -18,3 +18,12 @@ Route::get('/program', function()  { return View::make('program'); });
 
 
 Route::get('/program/1', function()  { return View::make('program.1'); });
+
+
+Route::get('/participants', function()  { return View::make('participant-list'); });
+
+Route::get('/participants2', function()  { return View::make('participant-list2'); });
+Route::get('/participant-profile', function()  { return View::make('participant-profile'); });
+
+
+

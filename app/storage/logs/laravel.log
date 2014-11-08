@@ -1844,3 +1844,297 @@ Stack trace:
 #9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
 #10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
 #11 {main} [] []
+[2014-11-08 19:43:48] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:60
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 19:43:56] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:60
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 19:43:59] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:60
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 19:44:13] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:60
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 19:45:00] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:58
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 19:45:10] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:58
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 19:45:51] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:56
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 19:45:54] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<'' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:55
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 19:45:56] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:56
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 19:46:29] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:51
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 19:46:37] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:50
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 19:46:44] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:58
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 19:46:56] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}'' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:55
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 20:01:35] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';', expecting ']'' in /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97:15
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 20:01:40] production.ERROR: exception 'ErrorException' with message 'Array to string conversion' in /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97:21
+Stack trace:
+#0 /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97(21): Illuminate\Exception\Handler->handleError(8, 'Array to string...', '/Users/kim/Site...', 21, Array)
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(9798): include('/Users/kim/Site...')
+#2 /Users/kim/Sites/prototype/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/kim/Site...', Array)
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('/Users/kim/Site...', Array)
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(9663): Illuminate\View\View->getContents()
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(9654): Illuminate\View\View->renderContents()
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(10357): Illuminate\View\View->render()
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(5189): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(4998): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main}
+
+Next exception 'ErrorException' with message 'Array to string conversion (View: /Users/kim/Sites/prototype/app/views/participant-list.blade.php)' in /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97:21
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 /Users/kim/Sites/prototype/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/kim/Site...', Array)
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('/Users/kim/Site...', Array)
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(9663): Illuminate\View\View->getContents()
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(9654): Illuminate\View\View->renderContents()
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(10357): Illuminate\View\View->render()
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(5189): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(4998): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-11-08 20:02:39] production.ERROR: exception 'ErrorException' with message 'Array to string conversion' in /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97:21
+Stack trace:
+#0 /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97(21): Illuminate\Exception\Handler->handleError(8, 'Array to string...', '/Users/kim/Site...', 21, Array)
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(9798): include('/Users/kim/Site...')
+#2 /Users/kim/Sites/prototype/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/kim/Site...', Array)
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('/Users/kim/Site...', Array)
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(9663): Illuminate\View\View->getContents()
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(9654): Illuminate\View\View->renderContents()
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(10357): Illuminate\View\View->render()
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(5189): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(4998): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main}
+
+Next exception 'ErrorException' with message 'Array to string conversion (View: /Users/kim/Sites/prototype/app/views/participant-list.blade.php)' in /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97:21
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 /Users/kim/Sites/prototype/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/kim/Site...', Array)
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('/Users/kim/Site...', Array)
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(9663): Illuminate\View\View->getContents()
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(9654): Illuminate\View\View->renderContents()
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(10357): Illuminate\View\View->render()
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(5189): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(4998): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-11-08 20:02:40] production.ERROR: exception 'ErrorException' with message 'Array to string conversion' in /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97:21
+Stack trace:
+#0 /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97(21): Illuminate\Exception\Handler->handleError(8, 'Array to string...', '/Users/kim/Site...', 21, Array)
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(9798): include('/Users/kim/Site...')
+#2 /Users/kim/Sites/prototype/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/kim/Site...', Array)
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('/Users/kim/Site...', Array)
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(9663): Illuminate\View\View->getContents()
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(9654): Illuminate\View\View->renderContents()
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(10357): Illuminate\View\View->render()
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(5189): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(4998): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main}
+
+Next exception 'ErrorException' with message 'Array to string conversion (View: /Users/kim/Sites/prototype/app/views/participant-list.blade.php)' in /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97:21
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 /Users/kim/Sites/prototype/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/kim/Site...', Array)
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('/Users/kim/Site...', Array)
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(9663): Illuminate\View\View->getContents()
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(9654): Illuminate\View\View->renderContents()
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(10357): Illuminate\View\View->render()
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(5189): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(4998): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-11-08 20:02:46] production.ERROR: exception 'ErrorException' with message 'Array to string conversion' in /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97:21
+Stack trace:
+#0 /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97(21): Illuminate\Exception\Handler->handleError(8, 'Array to string...', '/Users/kim/Site...', 21, Array)
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(9798): include('/Users/kim/Site...')
+#2 /Users/kim/Sites/prototype/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/kim/Site...', Array)
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('/Users/kim/Site...', Array)
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(9663): Illuminate\View\View->getContents()
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(9654): Illuminate\View\View->renderContents()
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(10357): Illuminate\View\View->render()
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(5189): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(4998): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main}
+
+Next exception 'ErrorException' with message 'Array to string conversion (View: /Users/kim/Sites/prototype/app/views/participant-list.blade.php)' in /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97:21
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 /Users/kim/Sites/prototype/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/kim/Site...', Array)
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('/Users/kim/Site...', Array)
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(9663): Illuminate\View\View->getContents()
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(9654): Illuminate\View\View->renderContents()
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(10357): Illuminate\View\View->render()
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(5189): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(4998): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-11-08 20:04:01] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ''person3'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'' in /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97:20
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 20:05:18] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)' in /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97:34
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 20:08:07] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'' in /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97:34
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 20:11:10] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-08 20:14:23] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'well' (T_STRING), expecting ',' or ';'' in /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97:26
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 20:14:26] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'well' (T_STRING), expecting ',' or ';'' in /Users/kim/Sites/prototype/app/storage/views/c46b783c7e17dce01b3670cabb8f9c97:26
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-08 20:26:34] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-08 20:26:34] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/kim/Sites/prototype/bootstrap/compiled.php:5680
+Stack trace:
+#0 /Users/kim/Sites/prototype/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/kim/Sites/prototype/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/kim/Sites/prototype/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/kim/Sites/prototype/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/kim/Sites/prototype/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/kim/Sites/prototype/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/kim/Sites/prototype/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/kim/Sites/prototype/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/kim/Sites/prototype/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
