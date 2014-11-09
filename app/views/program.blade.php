@@ -33,8 +33,8 @@
                 ?>
             </div>
              <div class="panel-body">
-                <p><span class='glyphicon glyphicon-time'></span> Fra-til <?php echo date('H:i:s', $ical->iCalDateToUnixTimestamp($event['DTSTART'])); echo "-"; echo  date('H:i:s', $ical->iCalDateToUnixTimestamp($event['DTEND'])); ?>
-                <p><span class='glyphicon glyphicon-globe'></span> Rom <?php echo $event['LOCATION']; ?>
+                <p><span class='glyphicon glyphicon-time'></span> Fra-til: <?php echo date('H:i:s', $ical->iCalDateToUnixTimestamp($event['DTSTART'])); echo "-"; echo  date('H:i:s', $ical->iCalDateToUnixTimestamp($event['DTEND'])); ?>
+                <p><span class='glyphicon glyphicon-globe'></span> Rom: <?php echo $event['LOCATION']; ?>
                 <p><a href="#">Les mer..</a></p> <!-- program/1 -->
 
 
