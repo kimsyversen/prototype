@@ -1,8 +1,13 @@
->sudo vim /etc/apache2/extra/httpd-vhosts.conf
+brew install php56 php56-mcrypt composer
 
+...
+
+>sudo vim /etc/apache2/extra/httpd-vhosts.conf
 
 <VirtualHost *:80>
     DocumentRoot "/Users/kim/Sites/prototype/public/"
+    ServerName prototype.com
+    ServerAlias www.prototype.com
     ServerAdmin kim.syversen@gmail.com
 </VirtualHost>
 
@@ -21,5 +26,43 @@
 Include /private/etc/apache2/extra/httpd-vhosts.conf
 LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
 LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+LoadModule php5_module    /usr/local/opt/php56/libexec/apache2/libphp5.so
 
 sudo apachectl restart
+
+
+
+>sudo vim /private/etc/apache2/extra/httpd-userdir.conf
+Include /private/etc/apache2/users/*.conf
+
+
+
+>sudo cat users/kim.conf
+#Legg til dette
+
+<Directory "/Users/kim/Sites/">
+AllowOverride All
+Options Indexes MultiViews FollowSymLinks
+Require all granted
+Order allow,deny
+Allow from all
+</Directory>
+
+
+
+"apachectl configtest" for å finne feil
+
+
+
+
+
+
+
+
+----------
+
+Installere laravel
+
+composer create-project laravel/laravel --prefer-dist
+
+sudo chown -R _www:_www /Users/kim/Sites/prototype/app/storage

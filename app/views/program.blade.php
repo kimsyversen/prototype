@@ -17,12 +17,9 @@
         $events = $ical->events();
 
         foreach ($events as $event) {
-
             //echo "Unique ID: ".$event['UID']."<br/>";
-
             if($event['STATUS'] == "CONFIRMED")
                 echo "<div class='panel panel-primary'>";
-
 
             if($event['STATUS'] == "CANCELLED")
                 echo "<div class='panel panel-danger'>";
