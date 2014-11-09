@@ -13,7 +13,7 @@
          </div>
 
         <?php
-        $ical   = new ICal("/Users/kim/Sites/prototype/app/storage/MyCal.ics");
+        $ical   = new ICal( app_path() . "/storage/MyCal.ics");
         $events = $ical->events();
 
         foreach ($events as $event) {
