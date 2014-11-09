@@ -14,7 +14,7 @@
         <h3 class="panel-title">Kurs 2 - Porteføljestyring</h3>
     </div>
     <div class="panel-body">
-        <p>Tid: 09:00-17:30</p>
+        <p><span class='glyphicon glyphicon-time'> Tid: 09:00-17:30</span></p>
         <p><a href="#">Les mer om sesjonen</a></p>
     </div>
        <div class="panel-footer">
@@ -27,7 +27,7 @@
         <h3 class="panel-title">Kurs 6 - Big data og offentlig sektor</h3>
     </div>
     <div class="panel-body">
-            <p>Tid: 09:00-17:30</p>
+            <p><span class='glyphicon glyphicon-time'> Tid: 09:00-17:30</span></p>
             <p><a href="#">Les mer om sesjonen</a></p>
     </div>
        <div class="panel-footer">

@@ -33,13 +33,9 @@
                 ?>
             </div>
              <div class="panel-body">
-                <?php
-                    echo "Rom: ".$event['LOCATION']."<br/>";
-                    echo "Starter: " . date('H:i:s', $ical->iCalDateToUnixTimestamp($event['DTSTART'])). "<br>";
-                    echo "Slutter: " . date('H:i:s', $ical->iCalDateToUnixTimestamp($event['DTEND'])). "<br>";
-
-                    ?>
-                    <p><a href="#">Les mer..</a></p> <!-- program/1 -->
+                <p><span class='glyphicon glyphicon-time'></span> Fra-til <?php echo date('H:i:s', $ical->iCalDateToUnixTimestamp($event['DTSTART'])); echo "-"; echo  date('H:i:s', $ical->iCalDateToUnixTimestamp($event['DTEND'])); ?>
+                <p><span class='glyphicon glyphicon-globe'></span> Rom <?php echo $event['LOCATION']; ?>
+                <p><a href="#">Les mer..</a></p> <!-- program/1 -->
 
 
                    <?php
