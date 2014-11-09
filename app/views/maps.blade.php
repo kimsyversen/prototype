@@ -10,7 +10,7 @@
 
 
             <div class="well">
-                <img src="http://www.cinemarektor.com/picardyofficenew.jpg">
+                <img src="https://dl.dropboxusercontent.com/u/240992/nokios-kart.png">
             </div>
         </div>
 

@@ -6,14 +6,15 @@
     <body>
         @include('includes.menu')
         @yield('body')
+  <div class="well">
+        <h2>Konferanseprogram</h2>
          <div class="well">
-                 Select day  <?php echo Form::select('size', array('Monday' => 'Monday 27/10', 'T' => 'Tuesday 28/10', 'W' => 'Wednesday 29/10'), array('class' => 'select-picker')); ?>
+                 Velg dag <?php echo Form::select('size', array('Monday' => 'Mandag 27/10', 'T' => 'Tirsdag 28/10', 'W' => 'Onsdag 29/10'), array('class' => 'select-picker')); ?>
          </div>
+
         <?php
         $ical   = new ICal("/Users/kim/Sites/prototype/app/storage/MyCal.ics");
         $events = $ical->events();
-
-//echo "<span class='badge'>".$event['STATUS']."</span>";
 
         foreach ($events as $event) {
 
@@ -31,23 +32,39 @@
                 <?php
                     echo $event['SUMMARY'];
                     if($event['STATUS'] == "CANCELLED")
-                    echo "<span class='badge'>".$event['STATUS']."</span>";
+                    echo "<span class='badge'>Kansellert</span>";
                 ?>
             </div>
              <div class="panel-body">
                 <?php
-                    echo "Location: ".$event['LOCATION']."<br/>";
-                    echo "Start: " . date('H:i:s', $ical->iCalDateToUnixTimestamp($event['DTSTART'])). "<br>";
-                    echo "End: " . date('H:i:s', $ical->iCalDateToUnixTimestamp($event['DTEND'])). "<br>";
+                    echo "Rom: ".$event['LOCATION']."<br/>";
+                    echo "Starter: " . date('H:i:s', $ical->iCalDateToUnixTimestamp($event['DTSTART'])). "<br>";
+                    echo "Slutter: " . date('H:i:s', $ical->iCalDateToUnixTimestamp($event['DTEND'])). "<br>";
 
-                    //if($event['UID'] == "15lc1nvupht8dtfiptenljoiv4@google.com")
-                    //    echo "<button><a href='program/1'>Read description</a></button>";
+                    ?>
+                    <p><a href="#">Les mer..</a></p> <!-- program/1 -->
 
-                    //echo "Description: ".$event['DESCRIPTION']."<br/>";
-                    echo "</div>";
-                    echo "</div>";
+
+                   <?php
+                        //if($event['UID'] == "15lc1nvupht8dtfiptenljoiv4@google.com")
+                        //    echo "<button><a href='program/1'>Read description</a></button>";
+
+                        //echo "Description: ".$event['DESCRIPTION']."<br/>";
+                        echo "</div>";
+                    ?>
+
+                     <?php
+                        if($event['STATUS'] == "CONFIRMED") { ?>
+                            <div class="panel-footer">
+                            <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.0) "><span class="glyphicon glyphicon-plus"></span>Legg til i min agenda</button>
+                            </div>
+                            <?php } ?>
+
+                    </div>
+
+                    <?php
                 }
                 ?>
-
+ </div>
     </body>
 </html>

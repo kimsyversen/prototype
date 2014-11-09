@@ -7,31 +7,37 @@
 @include('includes.menu')
 @yield('body')
 
-
+ <div class="well">
 
 <div class="panel panel-default">
     <div class="panel-heading">
         <h3 class="panel-title">Kurs 2 - Porteføljestyring</h3>
     </div>
     <div class="panel-body">
-        <p>Time: 09:00-17:30</p>
-        <div style="float: left;">
-            <p><a href="#">Remove from my schedule</a></p>
-        </div>
+        <p>Tid: 09:00-17:30</p>
+        <p><a href="#">Les mer om sesjonen</a></p>
     </div>
-</div>
+       <div class="panel-footer">
+                <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.0)"> <span class="glyphicon glyphicon-remove"></span> <a href="#">Fjern fra min agenda</a></button>
+       </div>
+    </div>
+
+
 
 <div class="panel panel-default">
     <div class="panel-heading">
         <h3 class="panel-title">Kurs 6 - Big data og offentlig sektor</h3>
     </div>
     <div class="panel-body">
-        <p>Time: 09:00-17:30</p>
-        <div style="float: left;">
-            <p><a href="#">Remove from my schedule</a></p>
-        </div>
+            <p>Tid: 09:00-17:30</p>
+            <p><a href="#">Les mer om sesjonen</a></p>
+    </div>
+       <div class="panel-footer">
+                <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.0)"> <span class="glyphicon glyphicon-remove"></span> <a href="#">Fjern fra min agenda</a></button>
+       </div>
     </div>
 </div>
+
 
 
 

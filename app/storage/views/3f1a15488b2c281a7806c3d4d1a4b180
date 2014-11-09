@@ -5,6 +5,8 @@
 
     <?php echo HTML::style('css/slidein-menu.css'); ?>
 
+      <?php echo HTML::style('css/bootstrap-select.css'); ?>
+
     <style>
         body{
             padding-top: 70px;

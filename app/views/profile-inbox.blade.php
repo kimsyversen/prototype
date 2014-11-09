@@ -9,14 +9,15 @@
 <div class="container-fluid">
     <div class="row">
             <div class="well">
+                <h2>Meldinger</h2>
                 <table class="table">
                     <tr>
                         <th class="field-label col-xs-2 col-sm-2 col-md-2 col-lg-1 ">
-                            <label>From</label>
+                            <label>Fra</label>
                         </th>
 
                         <th class="field-label col-xs-10 col-sm-10 col-md-10 col-lg-10 ">
-                            <label>Message</label>
+                            <label>Melding</label>
                         </th>
                     </tr>
 
@@ -25,7 +26,7 @@
                             Administration
                         </td>
                         <td class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                            Changes in the lunch event
+                            Endringer i lunsj.
                         </td>
                     </tr>
 
@@ -34,7 +35,7 @@
                              Administration
                          </td>
                          <td class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                             Congratulations! You won..
+                             Gratulerer, du har vunnet konkurransen.
                          </td>
                      </tr>
 
@@ -43,7 +44,7 @@
                             Administration
                         </td>
                         <td class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                            Survey about the first day at....
+                            Gi feedback om din første dag!
                         </td>
                     </tr>
 

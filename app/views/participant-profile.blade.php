@@ -19,10 +19,19 @@
 
           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 main" >
             <h1>Ola Nordmann</h1>
-            <p>Organization: NTNU</p>
-            <button>Send message</button>
-            <p>Facebook</p>
-            <p>Twitter</p>
+            <p>Organisasjon: NTNU</p>
+
+          <button type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-asterisk"></span> Se Facebook-profil
+            </button>
+
+          <button type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-asterisk"></span> Se Twitter-profil
+            </button>
+
+            <button type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-envelope"></span> Send melding
+            </button>
          </div>
 
     </div>
