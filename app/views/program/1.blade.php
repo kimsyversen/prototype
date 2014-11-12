@@ -9,6 +9,7 @@
 
 
         @yield('body')
+  <div class="col-xs-12 col-sm-9">
 
     <div class="well">
         <h2>Detaljinformasjon om sesjon</h2>
@@ -85,7 +86,7 @@
                      </div>
             </div>
         </div>
-
+    </div>
     </div>
     </body>
 </html>

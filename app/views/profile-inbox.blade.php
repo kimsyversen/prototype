@@ -6,6 +6,7 @@
     <body>
         @include('includes.menu')
         @yield('body')
+        <div class="col-xs-12 col-sm-9">
 <div class="container-fluid">
     <div class="row">
             <div class="well">
@@ -50,6 +51,7 @@
 
                     </table>
             </div>
+    </div>
     </div>
 </div>
 

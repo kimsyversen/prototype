@@ -7,7 +7,15 @@
 @include('includes.menu')
 @yield('body')
 
- <div class="well">
+
+
+
+
+
+
+<div class="col-xs-12 col-sm-9">
+
+
 <h2>Personlig agenda</h2>
 <div class="panel panel-default">
     <div class="panel-heading">
@@ -46,5 +54,8 @@
     </div>
 </div>
  </div>
+     <!-- insert the rest of your page markup here -->
+ </div>
+ 
 </body>
 </html>

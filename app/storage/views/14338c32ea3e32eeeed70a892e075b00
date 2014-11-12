@@ -6,6 +6,7 @@
     <body>
         <?php echo $__env->make('includes.menu', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
         <?php echo $__env->yieldContent('body'); ?>
+        <div class="col-xs-12 col-sm-9">
 <div class="container-fluid">
     <div class="row">
             <div class="well">
@@ -50,6 +51,7 @@
 
                     </table>
             </div>
+    </div>
     </div>
 </div>
 

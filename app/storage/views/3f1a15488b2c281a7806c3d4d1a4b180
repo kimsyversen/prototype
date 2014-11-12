@@ -5,7 +5,9 @@
 
     <?php echo HTML::style('css/slidein-menu.css'); ?>
 
-      <?php echo HTML::style('css/bootstrap-select.css'); ?>
+     <?php echo HTML::style('css/bootstrap-select.css'); ?>
+
+      <?php echo HTML::style('css/styles.css'); ?>
 
     <style>
         body{
