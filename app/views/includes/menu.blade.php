@@ -21,6 +21,15 @@
                      <li><a href="/participant-profile">Deltakerprofil</a></li>
                      <li><a href="/profile/messages">Meldingsinnboks</a></li>
                      <li><a href="/map">Kart</a></li>
+                      @if (Auth::check())
+                     <li><a href="/users/logout">Log Out</a></li>
+                     <li class="hidden-sm hidden-md hidden-lg"><a href="/profile/edit">Edit Profile</a></li>
+                     <li class="hidden-sm hidden-md hidden-lg"><a href="/profile/logbooks">Logbooks</a></li>
+                     <li class="hidden-sm hidden-md hidden-lg"><a href="/profile/programs">Programs</a></li>
+                     @else
+                     <li><a href="/users/login">Login</a></li>
+                     <!-- <li><a href="/users/create">Sign Up</a></li> -->
+                     @endif
 
                  </ul>
              </div>

@@ -31,3 +31,19 @@ Route::get('/map', function()  { return View::make('maps'); });
 Route::get('/profile/messages', function()  { return View::make('profile-inbox'); });
 
 Route::get('/profile/agenda', function()  { return View::make('personal-agenda'); });
+//
+
+// Confide routes
+Route::get('users/create', 'UsersController@create');
+Route::post('users', 'UsersController@store');
+Route::get('users/login', 'UsersController@login');
+Route::post('users/login', 'UsersController@doLogin');
+Route::get('users/confirm/{code}', 'UsersController@confirm');
+Route::get('users/forgot_password', 'UsersController@forgotPassword');
+Route::post('users/forgot_password', 'UsersController@doForgotPassword');
+Route::get('users/reset_password/{token}', 'UsersController@resetPassword');
+Route::post('users/reset_password', 'UsersController@doResetPassword');
+Route::get('users/logout', 'UsersController@logout');
+
+
+Route::get('users/profile', function()  { return View::make('userprofile'); });
