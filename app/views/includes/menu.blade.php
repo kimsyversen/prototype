@@ -22,8 +22,9 @@
                      <li><a href="/profile/messages">Meldingsinnboks</a></li>
                      <li><a href="/map">Kart</a></li>
                       @if (Auth::check())
-                       <li><a href="/users/profile">Profile</a></li>
+                      <li><a href="/users/profile">Profile</a></li>
                      <li><a href="/users/logout">Log Out</a></li>
+
                      @else
                      <li><a href="/users/login">Login</a></li>
                      <!-- <li><a href="/users/create">Sign Up</a></li> -->
