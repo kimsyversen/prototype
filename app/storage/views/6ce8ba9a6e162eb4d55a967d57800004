@@ -22,10 +22,8 @@
                      <li><a href="/profile/messages">Meldingsinnboks</a></li>
                      <li><a href="/map">Kart</a></li>
                       <?php if(Auth::check()): ?>
+                       <li><a href="/users/profile">Profile</a></li>
                      <li><a href="/users/logout">Log Out</a></li>
-                     <li class="hidden-sm hidden-md hidden-lg"><a href="/profile/edit">Edit Profile</a></li>
-                     <li class="hidden-sm hidden-md hidden-lg"><a href="/profile/logbooks">Logbooks</a></li>
-                     <li class="hidden-sm hidden-md hidden-lg"><a href="/profile/programs">Programs</a></li>
                      <?php else: ?>
                      <li><a href="/users/login">Login</a></li>
                      <!-- <li><a href="/users/create">Sign Up</a></li> -->
