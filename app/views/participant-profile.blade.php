@@ -30,7 +30,11 @@
             </button>
 
             <button type="button" class="btn btn-default btn-lg">
-              <span class="glyphicon glyphicon-envelope"></span> Send melding
+              <span class="glyphicon glyphicon-envelope"></span> Send in-app melding
+            </button>
+
+           <button type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-envelope"></span> <a href="sms:+4741586535">Send SMS </a>
             </button>
          </div>
 

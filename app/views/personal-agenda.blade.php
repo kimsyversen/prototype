@@ -34,6 +34,17 @@
                 <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.0)"> <span class="glyphicon glyphicon-remove"></span> <a href="#">Fjern fra min agenda</a></button>
        </div>
     </div>
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Nedlastinger</h3>
+    </div>
+    <div class="panel-body">
+            <p><span class="glyphicon glyphicon-calendar"></span><a href="#">iCal-fil</a></p>
+            <p><span class="glyphicon glyphicon-calendar"></span><a href="#">vCal-fil</a></p>
+    </div>
 </div>
+ </div>
 </body>
 </html>

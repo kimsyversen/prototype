@@ -2338,3 +2338,11 @@ Stack trace:
 #16 /Users/kim/Sites/prototype/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
 #17 /Users/kim/Sites/prototype/public/index.php(49): Illuminate\Foundation\Application->run()
 #18 {main} [] []
+[2014-11-12 09:20:29] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<'' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:50
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-12 09:21:36] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ')'' in /Users/kim/Sites/prototype/app/storage/views/e5b3f65523fab595d19e5e170c94e1ac:47
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
