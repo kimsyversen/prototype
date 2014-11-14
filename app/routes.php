@@ -15,12 +15,7 @@ Route::get('/home', function() { return View::make('home'); } );
 
 Route::get('/program', array('uses' => 'ProgramController@index'));
 
-
-//Route::get('/program', function()  { return View::make('program'); });
-
-
-Route::get('/program/1', function()  { return View::make('program.1'); });
-
+Route::get('program/{id}', array('uses' => 'ProgramController@index_id'))->where('id', '[0-9]+');
 
 Route::get('/participants', function()  { return View::make('participant-list'); });
 

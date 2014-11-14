@@ -8,6 +8,8 @@
         @yield('body')
         <div class="col-xs-12 col-sm-9">
             <h2>Konferanseprogram</h2>
+
+
             <div class="well">
                      Velg dag <?php echo Form::select('size', array('Monday' => 'Mandag 27/10', 'T' => 'Tirsdag 28/10', 'W' => 'Onsdag 29/10'), array('class' => 'select-picker')); ?>
              </div>
@@ -44,7 +46,7 @@
                                         if($session->program_type == 0 && $session->program_confirmed == 1)
                                             echo "<p><span class='glyphicon glyphicon-facetime-video'></span> Videostrømming er tilgjenglig</p>";
 
-                                            echo '<p><span class="glyphicon glyphicon-zoom-in"></span><a href="program/1">Les mer</a></p>';
+                                            echo '<p><span class="glyphicon glyphicon-zoom-in"></span><a href="program/' . $session->id  . '">Les mer</a></p>';
                                     echo '</div>';
 
 
