@@ -11,7 +11,7 @@
             <div class="well">
                      Velg dag <?php echo Form::select('size', array('Monday' => 'Mandag 27/10', 'T' => 'Tirsdag 28/10', 'W' => 'Onsdag 29/10'), array('class' => 'select-picker')); ?>
              </div>
-             <pre>
+
                     <?php
                         foreach($items as $sessions)
                         {
@@ -57,7 +57,6 @@
 
                         echo '</div>';
                         }
-
                   ?>
             </div>
          </body>
