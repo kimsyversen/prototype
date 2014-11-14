@@ -39,26 +39,13 @@ class ProgramController extends BaseController{
 
     public function index_id($id)
     {
-
-
-
-
-
             $time = DB::table('program')->select('program.pid as pid', 'program.time_from as time_from', 'program.time_to as time_to',
                 'program.confirmed as program_confirmed', 'program.title AS title', 'program.date AS date',
                 'program.time_to AS time_to', 'program.description AS program_description',
                 'program.location AS program_location', 'program.speaker AS program_speaker',
                 'program.confirmed AS program_confirmed', 'program.type AS program_type')
                 ->where('program.id', '=', $id)
-                ->distinct()
                 ->get();
-
-
-
-        //For hvert item, trenger også time_from, time_to (det som skal stå i header for parallellsesjon
-
-
-
 
         return View::make('program.1')->with('items', $time);
     }
