@@ -23,6 +23,7 @@ class CreateProgramTable extends Migration {
             $table->string('speaker')->nullable();
             $table->boolean('confirmed')->default(true);
             $table->Integer('type');
+            $table->Integer('pid')->nullable();
             $table->timestamps();
         });
 	}

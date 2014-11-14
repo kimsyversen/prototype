@@ -23,6 +23,7 @@ Prosjektveiviseren 2.0. er en anbefalt prosjektmodell for IKT prosjekter i offen
             'speaker' => 'Elin Kristine Fjørtoft, DIFI og Lars Nokken, DIFI',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 1
         ));
 
         Program::create(array(
@@ -39,6 +40,7 @@ Før Skatteetaten, Husbanken og kommunene presenterer sine erfaringer som viser 
             'speaker' => 'Jens Nørve, DIFI ',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 1
         ));
 
         Program::create(array(
@@ -51,6 +53,7 @@ Før Skatteetaten, Husbanken og kommunene presenterer sine erfaringer som viser 
             'speaker' => 'Stig Hornnes, Sikker digital post - prosjektleder Utbredelse, DIFI',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 1
         ));
 
         Program::create(array(
@@ -69,6 +72,7 @@ Viktigere enn loven er å forstå at universell utforming gir flere og mer forn�
             'speaker' => 'Pelle Sneen, Accenture',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 1
         ));
 
         Program::create(array(
@@ -81,6 +85,7 @@ Viktigere enn loven er å forstå at universell utforming gir flere og mer forn�
             'speaker' => 'Jørund Leknes, Kantega',
             'confirmed' => false,
             'type' => 0,
+            'pid' => 1
         ));
 
         Program::create(array(
@@ -93,6 +98,7 @@ Viktigere enn loven er å forstå at universell utforming gir flere og mer forn�
             'speaker' => 'PhD Jon Espen Ingvaldsen, NTNU og Jørund Leknes, Kantega ',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 1
         ));
 
         Program::create(array(
@@ -105,6 +111,7 @@ Viktigere enn loven er å forstå at universell utforming gir flere og mer forn�
             'speaker' => 'Jon Johnsen',
             'confirmed' => false,
             'type' => 0,
+            'pid' => 1
         ));
 
 
@@ -118,6 +125,7 @@ Viktigere enn loven er å forstå at universell utforming gir flere og mer forn�
             'speaker' =>  null,
             'confirmed' => true,
             'type' => 1,
+            'pid' => null,
         ));
 
 
@@ -134,6 +142,7 @@ Flere virksomheter har nå erfaringer fra prøvedrift på A-meldingen. Her prese
             'speaker' => 'Elisabeth Slinde, EVRY ',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 2,
         ));
 
 
@@ -153,6 +162,7 @@ Workshop og gruppearbeid vil skje i grupper, og det vil kunne være forskjellig 
             'speaker' => 'Ingvild Araldsen Blom',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 2,
         ));
 
 
@@ -172,6 +182,7 @@ Til slutt vil vi, I samarbeid med våre partnere, viser gode forenklings- og dig
             'speaker' => 'Andreas Rafaelsen, BRREG',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 2,
         ));
 
 
@@ -188,6 +199,7 @@ I workshopen vil vi først få presentasjoner fra utvalgte offentlige og private
             'speaker' => ' John Krogstie, NTNU og Bjørn Holstad, DIFI ',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 2,
         ));
 
 
@@ -201,6 +213,7 @@ I workshopen vil vi først få presentasjoner fra utvalgte offentlige og private
             'speaker' => 'Ikke tilgjenglig',
             'confirmed' => false,
             'type' => 0,
+            'pid' => 2,
         ));
 
 
@@ -214,6 +227,7 @@ I workshopen vil vi først få presentasjoner fra utvalgte offentlige og private
             'speaker' => 'Ikke tilgjenglig',
             'confirmed' => false,
             'type' => 0,
+            'pid' => 2,
         ));
 
 
@@ -235,6 +249,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'Axel Birkeland, Statens Innkrevingssentral og Jens Nørve, DIFI ',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 2,
         ));
 
         Program::create(array(
@@ -247,6 +262,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'Eirin Oda Lauvset, jurist og seniorrådgiver i Datatilsynet ',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 2,
         ));
 
 
@@ -260,6 +276,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' =>  null,
             'confirmed' => true,
             'type' => 1,
+            'pid' => null,
         ));
 
 
@@ -274,6 +291,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' =>  null,
             'confirmed' => true,
             'type' => 1,
+            'pid' => null,
         ));
 
 
@@ -287,6 +305,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' =>  null,
             'confirmed' => true,
             'type' => 1,
+            'pid' => null,
         ));
 
         Program::create(array(
@@ -299,6 +318,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' =>  null,
             'confirmed' => true,
             'type' => 1,
+            'pid' => null,
         ));
 
         Program::create(array(
@@ -311,6 +331,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' =>  null,
             'confirmed' => true,
             'type' => 1,
+            'pid' => null,
         ));
 
 
@@ -324,6 +345,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' =>  null,
             'confirmed' => true,
             'type' => 1,
+            'pid' => null,
         ));
 
         Program::create(array(
@@ -336,6 +358,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'null',
             'confirmed' => true,
             'type' => 1,
+            'pid' => null,
         ));
 
         Program::create(array(
@@ -348,6 +371,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'Prorektor Berit Kjeldstad',
             'confirmed' => true,
             'type' => 1,
+            'pid' => null,
         ));
 
         Program::create(array(
@@ -360,6 +384,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'Truls Berg, grunder og innovatør',
             'confirmed' => true,
             'type' => 0,
+            'pid' => null,
         ));
 
         Program::create(array(
@@ -372,6 +397,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'Tone Bringedal, DIFI og Trude Andresen, KS i samtale med Kjetil Århus, Bergen kommune og Ingunn Cowan, Lånekassen',
             'confirmed' => true,
             'type' => 0,
+            'pid' => null,
         ));
 
         Program::create(array(
@@ -384,6 +410,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'Prorektor Berit Kjeldstad',
             'confirmed' => true,
             'type' => 0,
+            'pid' => null,
         ));
 
         Program::create(array(
@@ -396,6 +423,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'null',
             'confirmed' => true,
             'type' => 1,
+            'pid' => null,
         ));
 
         Program::create(array(
@@ -408,6 +436,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'Odd-Henrik Hansen og Tonje Nordli. ',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 3,
         ));
 
         Program::create(array(
@@ -422,6 +451,7 @@ Vi har med oss Kultur- og naturreise, et prosjekt under Kartverket, Kulturrådet
             'speaker' => 'Anita Rusten, EVRY og Sidsel Hindal og Marit Kjeksrud Amundsen, Kultur- og naturreise ',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 3,
         ));
 
         Program::create(array(
@@ -434,6 +464,7 @@ Vi har med oss Kultur- og naturreise, et prosjekt under Kartverket, Kulturrådet
             'speaker' => 'Direktør Lars Peder Brekk, Brønnøysundregistrene ',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 3,
         ));
 
         Program::create(array(
@@ -452,6 +483,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
             'speaker' => 'Israr Khan',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 3,
         ));
 
         Program::create(array(
@@ -464,6 +496,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
             'speaker' => 'Elin Darrel, IT-sjef i Stjørdal kommune ',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 3,
         ));
 
         Program::create(array(
@@ -476,6 +509,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
             'speaker' => 'Ragne Elisabeth Henriksen, Innovasjonsleder i Visma Consulting ',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 3,
         ));
 
         Program::create(array(
@@ -488,6 +522,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
             'speaker' => 'Gøril Storrø',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 3,
         ));
 
         Program::create(array(
@@ -500,6 +535,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
             'speaker' => 'Hilde Kristin Storvig (Brønnøysundregistrene), Bjørn Sverre Gåsland (Statens Innkrevingssentral), Berner Koldal (Sjørfartsdirektoratet), Camilla Grøneng (Statens vegvesen), Torbjørn Moen (Oslo kemnerkontor).',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 4,
         ));
 
         Program::create(array(
@@ -512,6 +548,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
             'speaker' => 'Jørund Leknes (Kantega), Anne Stokke (Bouvet), Knut Kvale (Telenor ASA), Trude Hole (KulturIT).',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 4,
         ));
 
         Program::create(array(
@@ -530,6 +567,7 @@ Effektiv krisehåndtering krever et samspill mellom flere aktører. Samfunnet di
             'speaker' => 'Erland Røed (Kartverket), Rune Bratlie (Nedre Eiker commune), Stein Moen (Fenrik, HV-01).',
             'confirmed' => true,
             'type' => 0,
+            'pid' => 4,
         ));
 
         Program::create(array(
@@ -542,6 +580,7 @@ Effektiv krisehåndtering krever et samspill mellom flere aktører. Samfunnet di
             'speaker' => 'null',
             'confirmed' => true,
             'type' => 1,
+            'pid' => null,
         ));
 
         Program::create(array(
@@ -560,6 +599,7 @@ Kan det tenkes at offentlig innkjøpsregime bidrar til å hindre utvikling av n�
             'speaker' => 'Arne Hjeltnes',
             'confirmed' => true,
             'type' => 0,
+            'pid' => null,
         ));
 
         Program::create(array(
@@ -572,6 +612,7 @@ Kan det tenkes at offentlig innkjøpsregime bidrar til å hindre utvikling av n�
             'speaker' => 'null',
             'confirmed' => true,
             'type' => 1,
+            'pid' => null,
         ));
 
         Program::create(array(
@@ -590,6 +631,7 @@ Kan det tenkes at offentlig innkjøpsregime bidrar til å hindre utvikling av n�
 	'speaker' => 'Astrid Øksenvåg (eKor), Kjetil Århus (Bergen kommune), Tone Bringedal (DIFI), Kjersti Lauritzen (Brønnøysundregistrene).',
 	'confirmed' => true,
 	'type' => 0,
+            'pid' => 5,
 ));
 
 Program::create(array(
@@ -604,6 +646,7 @@ Etter en innledning om teamet får vi høre Jacob Krokstedt fra Stockholm stad s
 	'speaker' => 'Åsmund Mæhle (Bouvet), Jacob Krokstedt (Stockholm kommune), Arild Jansen (UiO), Arne Thorstensen (Skatteeetaten), Marit Mellingen (DIFI).',
 	'confirmed' => true,
 	'type' => 0,
+    'pid' => 5,
 ));
 
 Program::create(array(
@@ -616,6 +659,7 @@ Program::create(array(
 	'speaker' => 'Atle Bergfjord (Capgemini), Mette Gjertsen (Statens pensjonskasse), Tore Dybå (SINTEF)',
 	'confirmed' => true,
 	'type' => 0,
+    'pid' => 5,
 ));
 
 Program::create(array(
@@ -631,6 +675,7 @@ Dessert: Pasjonsfrukt panna cotta med mangokompott og sukkerbrød.',
 	'speaker' => 'null',
 	'confirmed' => true,
 	'type' => 1,
+    'pid' => null,
 ));
 
 
