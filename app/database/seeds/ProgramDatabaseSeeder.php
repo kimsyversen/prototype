@@ -125,7 +125,7 @@ Viktigere enn loven er å forstå at universell utforming gir flere og mer forn�
             'speaker' =>  null,
             'confirmed' => true,
             'type' => 1,
-            'pid' => null,
+            'pid' => 2,
         ));
 
 
@@ -142,7 +142,7 @@ Flere virksomheter har nå erfaringer fra prøvedrift på A-meldingen. Her prese
             'speaker' => 'Elisabeth Slinde, EVRY ',
             'confirmed' => true,
             'type' => 0,
-            'pid' => 2,
+            'pid' => 3
         ));
 
 
@@ -162,7 +162,7 @@ Workshop og gruppearbeid vil skje i grupper, og det vil kunne være forskjellig 
             'speaker' => 'Ingvild Araldsen Blom',
             'confirmed' => true,
             'type' => 0,
-            'pid' => 2,
+            'pid' => 3
         ));
 
 
@@ -182,7 +182,7 @@ Til slutt vil vi, I samarbeid med våre partnere, viser gode forenklings- og dig
             'speaker' => 'Andreas Rafaelsen, BRREG',
             'confirmed' => true,
             'type' => 0,
-            'pid' => 2,
+            'pid' => 3
         ));
 
 
@@ -199,7 +199,7 @@ I workshopen vil vi først få presentasjoner fra utvalgte offentlige og private
             'speaker' => ' John Krogstie, NTNU og Bjørn Holstad, DIFI ',
             'confirmed' => true,
             'type' => 0,
-            'pid' => 2,
+            'pid' => 3
         ));
 
 
@@ -213,7 +213,7 @@ I workshopen vil vi først få presentasjoner fra utvalgte offentlige og private
             'speaker' => 'Ikke tilgjenglig',
             'confirmed' => false,
             'type' => 0,
-            'pid' => 2,
+            'pid' => 3
         ));
 
 
@@ -227,7 +227,7 @@ I workshopen vil vi først få presentasjoner fra utvalgte offentlige og private
             'speaker' => 'Ikke tilgjenglig',
             'confirmed' => false,
             'type' => 0,
-            'pid' => 2,
+            'pid' => 3
         ));
 
 
@@ -249,7 +249,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'Axel Birkeland, Statens Innkrevingssentral og Jens Nørve, DIFI ',
             'confirmed' => true,
             'type' => 0,
-            'pid' => 2,
+            'pid' => 3
         ));
 
         Program::create(array(
@@ -262,7 +262,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'Eirin Oda Lauvset, jurist og seniorrådgiver i Datatilsynet ',
             'confirmed' => true,
             'type' => 0,
-            'pid' => 2,
+            'pid' => 3
         ));
 
 
@@ -276,7 +276,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' =>  null,
             'confirmed' => true,
             'type' => 1,
-            'pid' => null,
+            'pid' => 4,
         ));
 
 
@@ -291,7 +291,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' =>  null,
             'confirmed' => true,
             'type' => 1,
-            'pid' => null,
+            'pid' => 5,
         ));
 
 
@@ -305,7 +305,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' =>  null,
             'confirmed' => true,
             'type' => 1,
-            'pid' => null,
+            'pid' => 6,
         ));
 
         Program::create(array(
@@ -318,7 +318,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' =>  null,
             'confirmed' => true,
             'type' => 1,
-            'pid' => null,
+            'pid' => 7,
         ));
 
         Program::create(array(
@@ -331,7 +331,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' =>  null,
             'confirmed' => true,
             'type' => 1,
-            'pid' => null,
+            'pid' => 8,
         ));
 
 
@@ -345,7 +345,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' =>  null,
             'confirmed' => true,
             'type' => 1,
-            'pid' => null,
+            'pid' => 9,
         ));
 
         Program::create(array(
@@ -358,7 +358,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'null',
             'confirmed' => true,
             'type' => 1,
-            'pid' => null,
+            'pid' => 10,
         ));
 
         Program::create(array(
@@ -371,7 +371,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'Prorektor Berit Kjeldstad',
             'confirmed' => true,
             'type' => 1,
-            'pid' => null,
+            'pid' => 11,
         ));
 
         Program::create(array(
@@ -384,7 +384,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'Truls Berg, grunder og innovatør',
             'confirmed' => true,
             'type' => 0,
-            'pid' => null,
+            'pid' => 12,
         ));
 
         Program::create(array(
@@ -397,7 +397,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'Tone Bringedal, DIFI og Trude Andresen, KS i samtale med Kjetil Århus, Bergen kommune og Ingunn Cowan, Lånekassen',
             'confirmed' => true,
             'type' => 0,
-            'pid' => null,
+            'pid' => 13,
         ));
 
         Program::create(array(
@@ -410,7 +410,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'Prorektor Berit Kjeldstad',
             'confirmed' => true,
             'type' => 0,
-            'pid' => null,
+            'pid' => 14,
         ));
 
         Program::create(array(
@@ -423,7 +423,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'null',
             'confirmed' => true,
             'type' => 1,
-            'pid' => null,
+            'pid' => 15,
         ));
 
         Program::create(array(
@@ -436,7 +436,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
             'speaker' => 'Odd-Henrik Hansen og Tonje Nordli. ',
             'confirmed' => true,
             'type' => 0,
-            'pid' => 3,
+            'pid' => 16,
         ));
 
         Program::create(array(
@@ -451,7 +451,7 @@ Vi har med oss Kultur- og naturreise, et prosjekt under Kartverket, Kulturrådet
             'speaker' => 'Anita Rusten, EVRY og Sidsel Hindal og Marit Kjeksrud Amundsen, Kultur- og naturreise ',
             'confirmed' => true,
             'type' => 0,
-            'pid' => 3,
+            'pid' => 16,
         ));
 
         Program::create(array(
@@ -464,7 +464,7 @@ Vi har med oss Kultur- og naturreise, et prosjekt under Kartverket, Kulturrådet
             'speaker' => 'Direktør Lars Peder Brekk, Brønnøysundregistrene ',
             'confirmed' => true,
             'type' => 0,
-            'pid' => 3,
+            'pid' => 16,
         ));
 
         Program::create(array(
@@ -483,7 +483,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
             'speaker' => 'Israr Khan',
             'confirmed' => true,
             'type' => 0,
-            'pid' => 3,
+            'pid' => 16,
         ));
 
         Program::create(array(
@@ -496,7 +496,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
             'speaker' => 'Elin Darrel, IT-sjef i Stjørdal kommune ',
             'confirmed' => true,
             'type' => 0,
-            'pid' => 3,
+            'pid' => 16,
         ));
 
         Program::create(array(
@@ -509,7 +509,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
             'speaker' => 'Ragne Elisabeth Henriksen, Innovasjonsleder i Visma Consulting ',
             'confirmed' => true,
             'type' => 0,
-            'pid' => 3,
+            'pid' => 16,
         ));
 
         Program::create(array(
@@ -522,7 +522,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
             'speaker' => 'Gøril Storrø',
             'confirmed' => true,
             'type' => 0,
-            'pid' => 3,
+            'pid' => 16,
         ));
 
         Program::create(array(
@@ -535,7 +535,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
             'speaker' => 'Hilde Kristin Storvig (Brønnøysundregistrene), Bjørn Sverre Gåsland (Statens Innkrevingssentral), Berner Koldal (Sjørfartsdirektoratet), Camilla Grøneng (Statens vegvesen), Torbjørn Moen (Oslo kemnerkontor).',
             'confirmed' => true,
             'type' => 0,
-            'pid' => 4,
+            'pid' => 17,
         ));
 
         Program::create(array(
@@ -548,7 +548,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
             'speaker' => 'Jørund Leknes (Kantega), Anne Stokke (Bouvet), Knut Kvale (Telenor ASA), Trude Hole (KulturIT).',
             'confirmed' => true,
             'type' => 0,
-            'pid' => 4,
+            'pid' => 17,
         ));
 
         Program::create(array(
@@ -567,7 +567,7 @@ Effektiv krisehåndtering krever et samspill mellom flere aktører. Samfunnet di
             'speaker' => 'Erland Røed (Kartverket), Rune Bratlie (Nedre Eiker commune), Stein Moen (Fenrik, HV-01).',
             'confirmed' => true,
             'type' => 0,
-            'pid' => 4,
+            'pid' => 17,
         ));
 
         Program::create(array(
@@ -580,7 +580,7 @@ Effektiv krisehåndtering krever et samspill mellom flere aktører. Samfunnet di
             'speaker' => 'null',
             'confirmed' => true,
             'type' => 1,
-            'pid' => null,
+            'pid' => 18,
         ));
 
         Program::create(array(
@@ -599,7 +599,7 @@ Kan det tenkes at offentlig innkjøpsregime bidrar til å hindre utvikling av n�
             'speaker' => 'Arne Hjeltnes',
             'confirmed' => true,
             'type' => 0,
-            'pid' => null,
+            'pid' => 19,
         ));
 
         Program::create(array(
@@ -612,71 +612,71 @@ Kan det tenkes at offentlig innkjøpsregime bidrar til å hindre utvikling av n�
             'speaker' => 'null',
             'confirmed' => true,
             'type' => 1,
-            'pid' => null,
+            'pid' => 20,
         ));
 
         Program::create(array(
             'title' => 'Sesjon 2A Digital post',
             'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
             'time_from' => '15:15',
-	        'time_to' => '16:15',
-	'description' => 'Vi har A-post og B-post, ja er det ikke noe som heter ePost og nå kommer D-post, nei det var digital post.
+            'time_to' => '16:15',
+            'description' => 'Vi har A-post og B-post, ja er det ikke noe som heter ePost og nå kommer D-post, nei det var digital post.
     Vi produserer dokumenter digitalt, oppbevarer dokumenter digitalt, men når de skal sendes må de veien via papir –
         dette gir vel ingen mening. Har du hørt om Difis prosjekt «Sikker digital post til innbygger» og KS KommITs «Svarut»,
         post fra kommuner og fylkeskommuner til innbyggere og virksomheter. Digipost og eBoks har tilbudt digitale postkasser i
         flere år allerede. Alle som ønsker det får selvangivelsen digitalt fra Altinn, men det er en digital meldingsboks,
         ikke en digital postboks. Må vi beholde den grønne postkassen og hvorfor fjernet DNB muligheten kundene hadde til
         å få kopi av posten i nettbanken sendt til eBoks og Digipost. Blir du med, vi samler alle til en prat, ja postbudet kommer kanskje også.',
-	'location' => 'Cosmos 3A',
-	'speaker' => 'Astrid Øksenvåg (eKor), Kjetil Århus (Bergen kommune), Tone Bringedal (DIFI), Kjersti Lauritzen (Brønnøysundregistrene).',
-	'confirmed' => true,
-	'type' => 0,
-            'pid' => 5,
-));
+            'location' => 'Cosmos 3A',
+            'speaker' => 'Astrid Øksenvåg (eKor), Kjetil Århus (Bergen kommune), Tone Bringedal (DIFI), Kjersti Lauritzen (Brønnøysundregistrene).',
+            'confirmed' => true,
+            'type' => 0,
+            'pid' => 21,
+        ));
 
-Program::create(array(
-	'title' => 'Sesjon 2B Brukersentrerte tjenester på tvers av etatenes siloer',
-	'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
-	'time_from' => '15:15',
-	'time_to' => '16:15',
-	'description' => 'Mange offentlige tjenester lager gode digitale tjenester hver for seg. Men hva skal til for at vi får til samordnede tjenester som er sentrert rundt innbyggere og næringslivets behov og som involverer flere offentlige virksomheter?
+        Program::create(array(
+            'title' => 'Sesjon 2B Brukersentrerte tjenester på tvers av etatenes siloer',
+            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'time_from' => '15:15',
+            'time_to' => '16:15',
+            'description' => 'Mange offentlige tjenester lager gode digitale tjenester hver for seg. Men hva skal til for at vi får til samordnede tjenester som er sentrert rundt innbyggere og næringslivets behov og som involverer flere offentlige virksomheter?
 
 Etter en innledning om teamet får vi høre Jacob Krokstedt fra Stockholm stad som vil ha et innlegg med tittelen Med invånarnas fokus – Hur vi har jobbat med digitale tjänster på tvers av kommunala myndigheter i Stockholm. Til slutt blir det en paneldebatt med Arne Thorstensen fra Skatteetaten, Marit Mellingen, Difi og Arild Jansen, UiO.',
-	'location' => 'Cosmos 1',
-	'speaker' => 'Åsmund Mæhle (Bouvet), Jacob Krokstedt (Stockholm kommune), Arild Jansen (UiO), Arne Thorstensen (Skatteeetaten), Marit Mellingen (DIFI).',
-	'confirmed' => true,
-	'type' => 0,
-    'pid' => 5,
-));
+            'location' => 'Cosmos 1',
+            'speaker' => 'Åsmund Mæhle (Bouvet), Jacob Krokstedt (Stockholm kommune), Arild Jansen (UiO), Arne Thorstensen (Skatteeetaten), Marit Mellingen (DIFI).',
+            'confirmed' => true,
+            'type' => 0,
+            'pid' => 21,
+        ));
 
-Program::create(array(
-    'title' => 'Sesjon 2C Fra prosjekt til forvaltningv',
-    'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
-    'time_from' => '15:15',
-	'time_to' => '16:15',
-	'description' => 'Overgangen fra prosjekt til forvaltning kan være stor. Hvordan kan prosjekter forberede seg på overgangen til forvaltning? Smidige metoder og å kombinere utvikling og forvaltning er tiltak som kan sikre en effektiv overgang fra prosjekt til forvaltning. I denne sesjonen vil vi fokusere på prosjekt og forvaltningsfase for Perform hos Statens Pensjonskasse, hvor utviklingsprosjektet varte fra 2008 til 2012 og systemet nå er i forvaltning. Vi vil fokusere på læringspunkter som er relevante både for små og store utviklingsprosjekt.',
-	'location' => 'Cosmos 3C',
-	'speaker' => 'Atle Bergfjord (Capgemini), Mette Gjertsen (Statens pensjonskasse), Tore Dybå (SINTEF)',
-	'confirmed' => true,
-	'type' => 0,
-    'pid' => 5,
-));
+        Program::create(array(
+            'title' => 'Sesjon 2C Fra prosjekt til forvaltningv',
+            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'time_from' => '15:15',
+            'time_to' => '16:15',
+            'description' => 'Overgangen fra prosjekt til forvaltning kan være stor. Hvordan kan prosjekter forberede seg på overgangen til forvaltning? Smidige metoder og å kombinere utvikling og forvaltning er tiltak som kan sikre en effektiv overgang fra prosjekt til forvaltning. I denne sesjonen vil vi fokusere på prosjekt og forvaltningsfase for Perform hos Statens Pensjonskasse, hvor utviklingsprosjektet varte fra 2008 til 2012 og systemet nå er i forvaltning. Vi vil fokusere på læringspunkter som er relevante både for små og store utviklingsprosjekt.',
+            'location' => 'Cosmos 3C',
+            'speaker' => 'Atle Bergfjord (Capgemini), Mette Gjertsen (Statens pensjonskasse), Tore Dybå (SINTEF)',
+            'confirmed' => true,
+            'type' => 0,
+            'pid' => 21,
+        ));
 
-Program::create(array(
-	'title' => 'Konferansemiddag og Fyrlyktprisen',
-	'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
-	'time_from' => '19:30',
-	'time_to' => '23:30',
-	'description' => 'Mat og drikke er en viktig del av den totale opplevelsen av konferansen. Det blir det servert et velsmakende 3 retters måltid bestående av
+        Program::create(array(
+            'title' => 'Konferansemiddag og Fyrlyktprisen',
+            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'time_from' => '19:30',
+            'time_to' => '23:30',
+            'description' => 'Mat og drikke er en viktig del av den totale opplevelsen av konferansen. Det blir det servert et velsmakende 3 retters måltid bestående av
 Forrett: Sukkersaltet Frøya Laks, Dillkrem, karse og marinert agurk
 Hovedrett: Langbakt Indrefilet av storfe, fenikkel, stekt sopp, pac choy, amadinepotet og timiansjy
 Dessert: Pasjonsfrukt panna cotta med mangokompott og sukkerbrød.',
-	'location' => 'Clarion Hotel & Congress',
-	'speaker' => 'null',
-	'confirmed' => true,
-	'type' => 1,
-    'pid' => null,
-));
+            'location' => 'Clarion Hotel & Congress',
+            'speaker' => 'null',
+            'confirmed' => true,
+            'type' => 1,
+            'pid' => 22,
+        ));
 
 
 
