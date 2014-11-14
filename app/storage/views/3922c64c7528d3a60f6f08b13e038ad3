@@ -10,9 +10,11 @@
 
         <?php echo $__env->yieldContent('body'); ?>
     <div class="col-xs-12 col-sm-9">
-        <h2>Detaljinformasjon om sesjon</h2>
+
 
          <?php foreach($items as $item): ?>
+         <h2>Detaljinformasjon om <?php echo e($item->title); ?></h2>
+
               <div class="panel panel-default">
                   <div class="panel-body">
                       <h4> Dato, tid og sted</h4>
@@ -21,6 +23,8 @@
                       <p><span class="glyphicon glyphicon-time">Tid:</span>  <?php echo e($item->time_from); ?> - <?php echo e($item->time_to); ?>
 
                       <p><span class='glyphicon glyphicon-globe'>Rom: <?php echo e($item->program_location); ?> </span>
+
+
                   </div>
               </div>
             <?php endforeach; ?>

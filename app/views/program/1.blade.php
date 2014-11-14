@@ -10,15 +10,19 @@
 
         @yield('body')
     <div class="col-xs-12 col-sm-9">
-        <h2>Detaljinformasjon om sesjon</h2>
+
 
          @foreach ($items as $item)
+         <h2>Detaljinformasjon om {{{ $item->title }}}</h2>
+
               <div class="panel panel-default">
                   <div class="panel-body">
                       <h4> Dato, tid og sted</h4>
                       <p><span class="glyphicon glyphicon-calendar">Dato:</span> {{{ $item->date }}}
                       <p><span class="glyphicon glyphicon-time">Tid:</span>  {{{ $item->time_from  }}} - {{{ $item->time_to }}}
                       <p><span class='glyphicon glyphicon-globe'>Rom: {{{ $item->program_location }}} </span>
+
+
                   </div>
               </div>
             @endforeach
