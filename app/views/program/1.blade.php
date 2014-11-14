@@ -11,6 +11,7 @@
         @yield('body')
     <div class="col-xs-12 col-sm-9">
 
+         {{{ print_r($items) }}}
 
          @foreach ($items as $item)
          <h2>Detaljinformasjon om {{{ $item->title }}}</h2>
@@ -39,7 +40,13 @@
         <div class="panel panel-default">
             <div class="panel-body">
                 <h4>Videostrømming</h4>
-                    <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-plus"></span>Videostrømming er tilgjenglig</button>
+                    @if ($item->program_confirmed == 1)
+                          <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-plus"></span>Videostrømming er tilgjenglig</button>
+
+                    @else
+                         <p>Videostrømming ikke tilgjenglig
+                    @endif
+
             </div>
         </div>
 
