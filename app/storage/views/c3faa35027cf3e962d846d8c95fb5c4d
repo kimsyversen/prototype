@@ -6,7 +6,7 @@
 <body>
 <?php echo $__env->make('includes.menu', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 <?php echo $__env->yieldContent('body'); ?>
-<div class="col-xs-12 col-sm-9">
+
 <?php if( Session::has('items')): ?>
     <?php if( count($session) == 0): ?>
         <p>Du har ingen sesjoner i din agenda. Gå til programmet for å legge til.</p>
@@ -47,7 +47,7 @@
         <div class="panel-footer">
             <?php if($session->program_confirmed == 1): ?>
                 <?php if(Auth::check()): ?>
-                    <?php if($session->user_has_program_on_agenda == 1): ?>
+                    <?php if($session->user_has_program_on_agenda != 0): ?>
                         <?php echo Form::open(array('action' => array('UserProgramController@remove'), 'method' => 'post')); ?>
 
                         <?php echo Form::hidden('programId',  $session->id  ); ?>
@@ -76,7 +76,6 @@
 <?php endforeach; ?>
 
  </div>
-     <!-- insert the rest of your page markup here -->
- </div>
+
 </body>
 </html>

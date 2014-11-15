@@ -1,19 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    @include('includes.head')
-</head>
-<body>
-@include('includes.menu')
-@yield('body')
-
-@if( Session::has('items'))
-    @if( count($session) == 0)
-        <p>Du har ingen sesjoner i din agenda. Gå til programmet for å legge til.</p>
-    @endif
-@else
-    <h3>Personlig agenda</h3>
-@endif
 @foreach ($items as $sessions)
      <div class="panel panel-default">
         <div class="panel-heading">
@@ -36,7 +20,6 @@
             @if($session->program_confirmed == 1)
                 <p><span class='glyphicon glyphicon-globe'>Rom: {{{ $session->program_location }}}</span>
                 <p><span class="glyphicon glyphicon-zoom-in"></span><a href="program/{{{ $session->id }}}">Les mer</a></p>
-
             @endif
 
             @if( ($session->program_confirmed == 1) && ($session->program_type == 0) )
@@ -52,21 +35,21 @@
                         {{ Form::submit('Fjern fra min agenda', array('class' => 'btn btn-block')) }}
                         {{ Form::close() }}
                     @else
-                         {{ Form::open(array('action' => array('UserProgramController@remove'), 'method' => 'post')) }}
+                         {{ Form::open(array('action' => array('UserProgramController@add'), 'method' => 'post')) }}
                         {{ Form::hidden('programId',  $session->id  ) }}
-                        {{ Form::submit('Fjern fra min agenda', array('class' => 'btn btn-block')) }}
+                        {{ Form::submit('Legg til fra min agenda', array('class' => 'btn btn-block')) }}
                         {{ Form::close() }}
                     @endif
-                 @endif
-
+                @else
+                        {{ Form::open(array('action' => array('UserController@login'), 'method' => 'get')) }}
+                        {{ Form::hidden('programId',  $session->id  ) }}
+                        {{ Form::submit('Logg inn for å legge til i agenda', array('class' => 'btn btn-block')) }}
+                        {{ Form::close() }}
+                @endif
             @endif
        </div>
        </div>
     @endforeach
 </div>
+
 @endforeach
-
- </div>
-
-</body>
-</html>

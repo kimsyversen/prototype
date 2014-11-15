@@ -18,6 +18,9 @@ Route::get('/program', array('uses' => 'ProgramController@index'));
 Route::get('/program/date', array('uses' => 'ProgramController@view_date'));
 Route::post('/program/date', array('uses' => 'ProgramController@view_date'));
 
+Route::post('/program/date/add', array('uses' => 'UserProgramController@add'));
+Route::post('/program/date/remove', array('uses' => 'UserProgramController@remove'));
+
 
 Route::post('/program/add', array('uses' => 'UserProgramController@add'));
 Route::post('/program/remove', array('uses' => 'UserProgramController@remove'));
