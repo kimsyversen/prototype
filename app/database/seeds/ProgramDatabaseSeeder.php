@@ -13,7 +13,7 @@ class ProgramDatabaseSeeder  extends Seeder {
 
         Program::create(array(
             'title' => 'Kurs 1 - Prosjektveiviseren',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '09:30',
             'time_to' => '11:15',
             'description' => 'Det er krevende å gjennomføre digitaliseringsprosjekter på en god måte og det er enda vanskeligere å dokumentere at man tar ut de forventede gevinster. God planlegging er en forutsetning for å iverksette de riktige tiltak og å sikre bedre gjennomføringsevne. Difi lanserte en ny versjon av Prosjektveiviseren.no i 2012. Kurset vil gi en innføring i hvordan prosjektmetodikk og andre virkemidler kan bidra til flere vellykkede digitaliseringsprosjekter.
@@ -28,7 +28,7 @@ Prosjektveiviseren 2.0. er en anbefalt prosjektmodell for IKT prosjekter i offen
 
         Program::create(array(
             'title' => 'Kurs 2 - Porteføljestyring ',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '09:30',
             'time_to' => '11:15',
             'description' => 'For å sikre god IKT-styring er det behov for gode rutiner og kontroll i alle ledd. Det eksisterer mange ulike «beste praksis» rammeverk som har til formål å bidra til bedre IKT-styring, men ofte med ulik innfallsvinkel.Uansett fagkompetanse internt i et prosjekt-, program-, portefølje-, eller driftsmiljø er man også avhengig klare rolle- og ansvarsdefinisjoner i linjeorganisasjonen for å sikre vellykket styring.
@@ -45,7 +45,7 @@ Før Skatteetaten, Husbanken og kommunene presenterer sine erfaringer som viser 
 
         Program::create(array(
             'title' => 'Kurs 3 - Digital post ',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '09:30',
             'time_to' => '11:15',
             'description' => 'Den nye løsningen for sikker digital post til innbyggerne åpner for ordinær bruk i november. Alle statlige etater som sender post på papir til innbyggere skal ta løsningen i bruk. Regjeringen har satt klare tidsfrister, innen 1. juli 2015 skal etatene legge en plan for å ta løsningen i bruk innen første kvartal 2016. Se pressemelding fra Kommunal- og moderniseringsdepartementet. Difi inviterer til seminar om hvordan din virksomhet kan komme i gang med sikker digital post til innbyggere.',
@@ -58,7 +58,7 @@ Før Skatteetaten, Husbanken og kommunene presenterer sine erfaringer som viser 
 
         Program::create(array(
             'title' => 'Kurs 4 - Brukeren i sentrum - gode argumenter for universell utforming',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '09:30',
             'time_to' => '11:15',
             'description' => 'Best mulig for flest mulig! I korthet er dette hva universell utforming (uu) dreier seg om. Ønsker du å øke trafikken på nettstedet ditt, hjelper det derfor å tenke uu. Kunnskapen finnes. Det handler bare om å ta den i bruk!
@@ -77,7 +77,7 @@ Viktigere enn loven er å forstå at universell utforming gir flere og mer forn�
 
         Program::create(array(
             'title' => 'Kurs 5 - Offentlige anskaffelser til det beste',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '09:30',
             'time_to' => '11:15',
             'description' => 'Ikke tilgjenglig',
@@ -90,7 +90,7 @@ Viktigere enn loven er å forstå at universell utforming gir flere og mer forn�
 
         Program::create(array(
             'title' => 'Kurs 6 - Big data og offentlig sektor',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '09:30',
             'time_to' => '11:15',
             'description' => 'Lorem',
@@ -103,7 +103,7 @@ Viktigere enn loven er å forstå at universell utforming gir flere og mer forn�
 
         Program::create(array(
             'title' => 'Kurs 7 - Hvordan ta i bruk KS SvarUt i kommuner og fylkeskommuner',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '09:30',
             'time_to' => '11:15',
             'description' => 'Lorem',
@@ -117,7 +117,7 @@ Viktigere enn loven er å forstå at universell utforming gir flere og mer forn�
 
         Program::create(array(
             'title' => 'Lunsj',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '11:30',
             'time_to' => '12:30',
             'description' => 'Lorem',
@@ -132,7 +132,7 @@ Viktigere enn loven er å forstå at universell utforming gir flere og mer forn�
 
         Program::create(array(
             'title' => 'Workshop 1 - EDAG - den største IT-reformen i Norge i 2014/2015',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '12:30',
             'time_to' => '14:00',
             'description' => 'A-ordningen er navnet på den nye rapporteringsordningen til Skatteetaten (inkl. skatteoppkrever), Arbeids- og velferdsetaten (NAV) og Statistisk sentralbyrå (SSB) som innføres 1. januar 2015. A-meldingen erstatter lønns- og trekkoppgaver, terminoppgaver, årsoppgave for skattetrekk og arbeidsgiveravgift, samt skjemaer fra NAV og SSB.
@@ -148,7 +148,7 @@ Flere virksomheter har nå erfaringer fra prøvedrift på A-meldingen. Her prese
 
         Program::create(array(
             'title' => 'Workshop 2 - Informasjonsdeling ',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '12:30',
             'time_to' => '14:00',
             'description' => 'Dette er oppfølgingen av eKors workshop om Informasjonsdeling i fjor. Hva har skjedd på 12 måneder når det gjelder aktiviteter innenfor informasjonsdeling i det offentlige?
@@ -168,7 +168,7 @@ Workshop og gruppearbeid vil skje i grupper, og det vil kunne være forskjellig 
 
         Program::create(array(
             'title' => 'Workshop 3 - Forenkle, forenkle, forenkle - hvor enkelt vil du ha det? ',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '12:30',
             'time_to' => '14:00',
             'description' => 'Fra uforståelig XML til mobildialog på 10 minutter til bruk av over 400 000 virksomheter og 4 millioner mennesker. Kom og lær hvordan du kan bruke Altinn til å realisere din multikanalstrategi. En sesjon i 3 deler hvor vi viser deg hvordan du raskt kan lage enkle og effektive tjenester.
@@ -189,7 +189,7 @@ Til slutt vil vi, I samarbeid med våre partnere, viser gode forenklings- og dig
 
         Program::create(array(
             'title' => 'Workshop 4 - Hvordan få effekt av virksomhetsarkitektur?',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '12:30',
             'time_to' => '14:00',
             'description' => 'OSDF (Offentlig sektors dataforum) inviterer til workshop rundt hvordan man kan få utbytte av virksomhetsarkitektur. De siste årene har stadig flere offentlige virksomheter startet med å lage virksomhetsarkitekturer, men får vi utnyttet dette arbeidet på en god måte?
@@ -205,7 +205,7 @@ I workshopen vil vi først få presentasjoner fra utvalgte offentlige og private
 
         Program::create(array(
             'title' => 'Workshop 5 - Er den nasjonale beredskapen i Norge god nok til å møte krise og katastrofe?',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '12:30',
             'time_to' => '14:00',
             'description' => 'Ikke tilgjenglig',
@@ -219,7 +219,7 @@ I workshopen vil vi først få presentasjoner fra utvalgte offentlige og private
 
         Program::create(array(
             'title' => 'Workshop 6 - Finansieringsmuligheter i IKT 2025 og EU sitt Horizon 2020-program',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '12:30',
             'time_to' => '14:00',
             'description' => 'Ikke tilgjenglig',
@@ -233,7 +233,7 @@ I workshopen vil vi først få presentasjoner fra utvalgte offentlige og private
 
         Program::create(array(
             'title' => 'Workshop 7 - Målbilde for offentlig sektor i 2025 ',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '12:30',
             'time_to' => '14:00',
             'description' => 'Hvordan ser offentlig tjenesteyting ut i et 2025 perspektiv? Du inviteres med dette til en workshop hvor du kan være med å etablere et fremtidig målbilde for offentlig sektor. Vi ønsker å beskrive dette i form av scenarier. Scenarier er historier om framtida og de er et hjelpemiddel for å tenke langsiktig i en verden full av usikkerhet. Våre scenarier skal være fortellinger om hvordan offentlig tjenesteyting kan utvikle seg i et 10-15 års perspektiv, fram mot år 2025, gitt de trendene vi ser i dag.
@@ -254,7 +254,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
 
         Program::create(array(
             'title' => 'Workshop 8 - Personvern i skolen og barnehagen ',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '12:30',
             'time_to' => '14:00',
             'description' => 'Datatilsynet har i en 2-års periode jobbet aktivt med personvern i skoler og barnehager. Foreløpig resultat er en samlerapport som oppsummerer erfaringene fra dette arbeidet. Som en innledning til workshopen vil Martha og Eirin presentere Datatilsynets samlerapport fra tilsyn på skoler og barnehager, samt trekke frem konkrete funn og erfaringer fra tilsyn som kan egne seg til diskusjon i grupper. Etter dette vil deltakerne bli inndelt i mindre grupper som skal diskutere hvordan personvernet kan bedres i skole og barnehage, samt utfordres til å presentere sine innspill i form av forslag til gode rutiner. Datatilsynet ønsker å skape engasjement for å lage en nasjonal norm for personvern i skoler og barnehager. Nyttige innspill fra workshopen kan brukes i arbeidet med en slik norm.',
@@ -268,7 +268,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
 
         Program::create(array(
             'title' => 'Pause - Spekemat, ost og kjeks',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '14:00',
             'time_to' => '14:15',
             'description' => 'Ikke tilgjenglig',
@@ -283,7 +283,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
 
         Program::create(array(
             'title' => 'Workshop fortsetter',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '14:15',
             'time_to' => '15:45',
             'description' => 'Ikke tilgjenglig',
@@ -297,7 +297,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
 
         Program::create(array(
             'title' => 'Pause - Spekemat, ost og kjeks',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '15:45',
             'time_to' => '16:00',
             'description' => 'Ikke tilgjenglig',
@@ -310,7 +310,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
 
         Program::create(array(
             'title' => 'Workshop fortsetter',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '16:00',
             'time_to' => '17:00',
             'description' => 'Ikke tilgjenglig',
@@ -323,7 +323,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
 
         Program::create(array(
             'title' => 'Slutt',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '16:00',
             'time_to' => '17:00',
             'description' => 'Ikke tilgjenglig',
@@ -337,7 +337,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
 
         Program::create(array(
             'title' => 'Rockheim, Splitter Pine Tapas og Charlotte Audestad',
-            'date' => DateTime::createFromFormat('d/m/Y', '28/10/2014'),
+            'date' => '27-10',
             'time_from' => '19:00',
             'time_to' => '23:00',
             'description' => 'Rockheim',
@@ -350,7 +350,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
 
         Program::create(array(
             'title' => 'Registrering',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '08:30',
             'time_to' => '09:30',
             'description' => 'Registrer deg ved resepsjonen ved ankomst.',
@@ -363,7 +363,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
 
         Program::create(array(
             'title' => 'Åpning',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '09:30',
             'time_to' => '11:00',
             'description' => 'Prorektor Berit Kjeldstad ønsker velkommen og åpner konferansen.',
@@ -376,7 +376,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
 
         Program::create(array(
             'title' => 'Halveis til framtiden - digitale trender og impulser',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '09:30',
             'time_to' => '11:00',
             'description' => 'Truls har skrevet en bok sammen med Adjiedj Bakaas med samme tittel som foredraget. Boka peker på 5 megatrender og gir en rekke innspill på digitale trender og impulser vil endre det meste.',
@@ -389,7 +389,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
 
         Program::create(array(
             'title' => 'Digital kommunikasjon',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '09:30',
             'time_to' => '11:00',
             'description' => 'Digital kommunikasjon skal være hovedregelen i dialogen mellom offentlig sektor og innbyggerne. Vi hører om de nye digitale byggeklossene, SvarUt, kontakt- og reservasjonsregisteret og digital post til innbyggere. Disse skal inngå i den digitale grunnmuren. Hva betyr dette egentlig for innbyggerne, kommunene og statlige virksomheter? Er vi i mål med grunnmuren når disse kommer på plass? Og hvilken utvikling kan vi forvente etter dette? I samtalen vil de fire reflektere blant annet rundt disse spørsmålene, og komme inn på: Betydningen av samhandling og samarbeid mellom kommune og stat; Veikart for felleskomponenter for å sikre forutsigbarhet, fremdrift og en helhetlig tilnærming; Digital kompetanse hos ledere.',
@@ -402,7 +402,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
 
         Program::create(array(
             'title' => 'Presentasjon av kandidater til Fyrlykt-prisen',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '09:30',
             'time_to' => '11:00',
             'description' => 'Presentasjon av kandidater til Fyrlykt-prisen.',
@@ -415,7 +415,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
 
         Program::create(array(
             'title' => 'Kaffepause. Spekemat, ost og kjeks',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '11:00',
             'time_to' => '11:15',
             'description' => 'Det blir servert kaffe og spekemat med ost og kjeks i fellesområdet.',
@@ -428,7 +428,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
 
         Program::create(array(
             'title' => 'U1 - Software Innovation: Skyløsninger',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '11:15',
             'time_to' => '11:45',
             'description' => 'Seminaret inneholder litt om hva cloud er, bakgrunn, skytjeneste vs. Lokal installasjon, gevinster og en rask demonstrasjon av løsningen.',
@@ -441,7 +441,7 @@ Resultatene fra workshopen er tenkt brukt senere i konferansen. Vel møtt til en
 
         Program::create(array(
             'title' => 'U2 - EVRY: Mobile trender og løsninger for offentlig sektor',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '11:15',
             'time_to' => '11:45',
             'description' => 'Bruken av mobil og nettbrett øker i bedriftene, og i 2015 vil det være flere på arbeidsplassen som bruker internett gjennom mobile enheter enn gjennom ordinær PC. Antall app’er skyter i været, både bedrifts-apper og apper for privat bruk. Er sikkerheten ivaretatt? Hvordan kan EVRY gi den offentlige sektor merverdi som gjør den mobile enheten til et effektivt arbeidsverktøy? Vi vil også presentere hvordan EVRY kan levere hele livssyklusen innen mobile løsninger, fra mobiltelefoner og nettbrett samt logistikk rundt dette, til sikkerhetsløsninger, apphåndtering og kundeunike apper.
@@ -456,7 +456,7 @@ Vi har med oss Kultur- og naturreise, et prosjekt under Kartverket, Kulturrådet
 
         Program::create(array(
             'title' => 'U3 - Brønnøysundregistrene: Med Altinn i fremtiden',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '11:15',
             'time_to' => '11:45',
             'description' => 'Ingen diskripsjon',
@@ -469,7 +469,7 @@ Vi har med oss Kultur- og naturreise, et prosjekt under Kartverket, Kulturrådet
 
         Program::create(array(
             'title' => 'U4 - Capgemini: Kunsten å lage verdiskapende, brukersentrerte digitale tjenester',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '11:15',
             'time_to' => '11:45',
             'description' => 'De offentlige tjenestene blir mer og mer digitale, og epoken hvor fysiske kontaktpunkter var de viktigste for å få tilgang til disse er ved veis ende. Sektorer slik som bank og finans har allerede opplevd paradigmeskiftet fra å ha fysiske tjenester til å bli så og si heldigitale.
@@ -488,7 +488,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
 
         Program::create(array(
             'title' => 'U5 - Telenor: Velferdsteknologi i praksis',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '11:15',
             'time_to' => '11:45',
             'description' => 'Værnes-regionen var tidlig ute med bruk av digitale løsninger innenfor helse og omsorg. Stjørdal og Selbu var de første kommunene som innførte løsning der velferdsteknologi ble integrert med fagsystemet og journalsystemet i kommunen. Hva er utfordringene med helse og omsorg i kommunene og hva er målet med innføring av ny teknologi? Vi får en innføring i kommunens erfaringer med løsningen.',
@@ -501,7 +501,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
 
         Program::create(array(
             'title' => 'U6 - Visma: Hvordan skape innovasjon i din virksomhet?',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '11:15',
             'time_to' => '11:45',
             'description' => 'Vi gir deg en innføring i hvordan du kan skape en innovasjonskultur i din organisasjon. Ragne forteller om hva vi i Visma gjør for å fange, foredle og implementere nye idèer fra egen organisasjon i forretningsutviklingen, og gir deg samtidig noen råd om prosess, verktøy og aktiviteter du kan benytte for å lykkes med å etablere en innovasjonskultur internt.',
@@ -514,7 +514,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
 
         Program::create(array(
             'title' => 'U7 - Kantega: Hvordan finne ut mer om brukerne dine enn brukeren selv vet',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '11:15',
             'time_to' => '11:45',
             'description' => 'Ingen diskripsjon',
@@ -527,7 +527,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
 
         Program::create(array(
             'title' => 'Sesjon 1A Kunsten å forenkle – suksesshistorier',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '12:00',
             'time_to' => '13:00',
             'description' => 'Det nye slagordet er «fornye, forenkle og forbedre». I denne sesjonen setter vi fokus på hvordan digitalisering bidrar til fornying, forenkling og forbedring. Vi får flere konkrete eksempler på hva virksomheter har gjort og hva som førte til deres suksess. Situasjonen før og etter tiltaket, beskrivelse av tiltaket og læringseffekten for andre vil være sentralt i de suksesshistoriene vi får høre om.',
@@ -540,7 +540,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
 
         Program::create(array(
             'title' => 'Sesjon 1B Servicedesign - tjenesteutvikling med brukeren i sentrum',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '12:00',
             'time_to' => '13:00',
             'description' => 'Det duger ikke lenger å jobbe på «gamlemåten» når du skal utvikle dine tjenester for morgendagens brukere. Trender om forbruksmønstre og brukernes forventninger påvirker vår tjenesteutvikling. Servicedesign dreier seg om å skape gode og helhetlige opplevelser ved å sette brukeren i sentrum, i samsvar med virksomhetens strategi. I denne sesjonen setter vi søkelyset på servicedesign som fagdisiplin. Innovasjon knyttet til arbeidsprosesser og ivaretakelse av brukerbehov er noen stikkord ved tjenesteutvikling i en ny digital virkelighet. Er du og din virksomhet forberedt på fremtidens tjenesteutvikling? Hvis ikke - da må du få med deg denne sesjonen.',
@@ -553,7 +553,7 @@ Men hvordan går man frem for å danne tjenester som bruker de digitale kontaktf
 
         Program::create(array(
             'title' => 'Sesjon 1C Sikkerhet og beredskap',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '12:00',
             'time_to' => '13:00',
             'description' => 'Når vannet truer
@@ -572,7 +572,7 @@ Effektiv krisehåndtering krever et samspill mellom flere aktører. Samfunnet di
 
         Program::create(array(
             'title' => 'Lunsj',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '11:45',
             'time_to' => '12:00',
             'description' => 'Det blir servert lunsj i lunsjområdet.',
@@ -585,7 +585,7 @@ Effektiv krisehåndtering krever et samspill mellom flere aktører. Samfunnet di
 
         Program::create(array(
             'title' => 'Paneldebatt: Ledere i utakt - manglende digital kompetanse?',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '14:00',
             'time_to' => '15:00',
             'description' => 'Vi trenger større fart på endringsarbeidet og mye kan gjøres i den enkelte enhet/etat.
@@ -604,7 +604,7 @@ Kan det tenkes at offentlig innkjøpsregime bidrar til å hindre utvikling av n�
 
         Program::create(array(
             'title' => 'Pause. Frukt, grønt og dip.',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '15:00',
             'time_to' => '15:15',
             'description' => 'Det blir servert en liten oppkvikker i fellesområdet.',
@@ -617,7 +617,7 @@ Kan det tenkes at offentlig innkjøpsregime bidrar til å hindre utvikling av n�
 
         Program::create(array(
             'title' => 'Sesjon 2A Digital post',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '15:15',
             'time_to' => '16:15',
             'description' => 'Vi har A-post og B-post, ja er det ikke noe som heter ePost og nå kommer D-post, nei det var digital post.
@@ -636,7 +636,7 @@ Kan det tenkes at offentlig innkjøpsregime bidrar til å hindre utvikling av n�
 
         Program::create(array(
             'title' => 'Sesjon 2B Brukersentrerte tjenester på tvers av etatenes siloer',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '15:15',
             'time_to' => '16:15',
             'description' => 'Mange offentlige tjenester lager gode digitale tjenester hver for seg. Men hva skal til for at vi får til samordnede tjenester som er sentrert rundt innbyggere og næringslivets behov og som involverer flere offentlige virksomheter?
@@ -651,7 +651,7 @@ Etter en innledning om teamet får vi høre Jacob Krokstedt fra Stockholm stad s
 
         Program::create(array(
             'title' => 'Sesjon 2C Fra prosjekt til forvaltningv',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '15:15',
             'time_to' => '16:15',
             'description' => 'Overgangen fra prosjekt til forvaltning kan være stor. Hvordan kan prosjekter forberede seg på overgangen til forvaltning? Smidige metoder og å kombinere utvikling og forvaltning er tiltak som kan sikre en effektiv overgang fra prosjekt til forvaltning. I denne sesjonen vil vi fokusere på prosjekt og forvaltningsfase for Perform hos Statens Pensjonskasse, hvor utviklingsprosjektet varte fra 2008 til 2012 og systemet nå er i forvaltning. Vi vil fokusere på læringspunkter som er relevante både for små og store utviklingsprosjekt.',
@@ -664,7 +664,7 @@ Etter en innledning om teamet får vi høre Jacob Krokstedt fra Stockholm stad s
 
         Program::create(array(
             'title' => 'Konferansemiddag og Fyrlyktprisen',
-            'date' => DateTime::createFromFormat('d/m/Y', '29/10/2014'),
+            'date' => '29-10',
             'time_from' => '19:30',
             'time_to' => '23:30',
             'description' => 'Mat og drikke er en viktig del av den totale opplevelsen av konferansen. Det blir det servert et velsmakende 3 retters måltid bestående av

@@ -15,7 +15,17 @@ Route::get('/home', function() { return View::make('home'); } );
 
 Route::get('/program', array('uses' => 'ProgramController@index'));
 
-Route::get('program/{id}', array('uses' => 'ProgramController@index_id'))->where('id', '[0-9]+');
+Route::get('/program/date', array('uses' => 'ProgramController@view_date'));
+Route::post('/program/date', array('uses' => 'ProgramController@view_date'));
+
+
+//Route::get('/program/date/1', function() { return View::make('date.1'); } );
+//Route::get('/program/date/2', function() { return View::make('date.1'); } );
+
+Route::get('/program/{id}', array('uses' => 'ProgramController@index_id'))->where('id', '[0-9]+');
+
+
+Route::get('/2', function() { return View::make('program.2'); } );
 
 Route::get('/participants', function()  { return View::make('participant-list'); });
 
@@ -44,3 +54,6 @@ Route::get('users/logout', 'UsersController@logout');
 
 
 Route::get('users/profile', function()  { return View::make('userprofile'); });
+
+
+

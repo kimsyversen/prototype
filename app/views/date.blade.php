@@ -7,7 +7,8 @@
         @include('includes.menu')
         @yield('body')
         <div class="col-xs-12 col-sm-9">
-            <h2>Konferanseprogram</h2>
+        <h2>Konferanseprogram</h2>
+
 
 
 

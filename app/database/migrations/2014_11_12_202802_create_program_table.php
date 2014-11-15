@@ -15,7 +15,7 @@ class CreateProgramTable extends Migration {
         Schema::create('program', function ($table) {
             $table->increments('id');
             $table->string('title');
-            $table->dateTime('date');
+            $table->string('date');
             $table->string('time_from');
             $table->string('time_to');
             $table->string('description');
