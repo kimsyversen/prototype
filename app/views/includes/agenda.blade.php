@@ -41,7 +41,7 @@
                         {{ Form::close() }}
                     @endif
                 @else
-                        {{ Form::open(array('action' => array('UserController@login'), 'method' => 'get')) }}
+                        {{ Form::open(array('action' => array('UsersController@login'), 'method' => 'get')) }}
                         {{ Form::hidden('programId',  $session->id  ) }}
                         {{ Form::submit('Logg inn for å legge til i agenda', array('class' => 'btn btn-block')) }}
                         {{ Form::close() }}

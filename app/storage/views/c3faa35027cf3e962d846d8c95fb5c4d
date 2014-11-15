@@ -6,76 +6,15 @@
 <body>
 <?php echo $__env->make('includes.menu', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 <?php echo $__env->yieldContent('body'); ?>
+<h3>Personlig agenda</h3>
 
-<?php if( Session::has('items')): ?>
-    <?php if( count($session) == 0): ?>
+    <?php if( count($items) == 0): ?>
         <p>Du har ingen sesjoner i din agenda. Gå til programmet for å legge til.</p>
     <?php endif; ?>
-<?php else: ?>
-    <h3>Personlig agenda</h3>
-<?php endif; ?>
-<?php foreach($items as $sessions): ?>
-     <div class="panel panel-default">
-        <div class="panel-heading">
-              <h3 class="panel-title"><span class="glyphicon glyphicon-time"></span> <?php echo e($sessions['date']); ?> / <?php echo e($sessions['time_from']); ?> - <?php echo e($sessions['time_to']); ?></h3>
-        </div>
-       <?php foreach($sessions['data'] as $session): ?>
-            <?php if($session->program_confirmed == 1): ?>
-                <div class="panel panel-success">
-             <?php else: ?>
-                <div class="panel panel-danger">
-             <?php endif; ?>
-        <div class="panel-heading">
-            <h3 class="panel-title"> <?php echo e($session->title); ?>
 
-                <?php if($session->program_confirmed == 0): ?>
-                    <span class='badge'>Kansellert</span>
-                <?php endif; ?>
-            </h3>
-        </div>
-        <div class="panel-body">
-            <?php if($session->program_confirmed == 1): ?>
-                <p><span class='glyphicon glyphicon-globe'>Rom: <?php echo e($session->program_location); ?></span>
-                <p><span class="glyphicon glyphicon-zoom-in"></span><a href="program/<?php echo e($session->id); ?>">Les mer</a></p>
 
-            <?php endif; ?>
 
-            <?php if( ($session->program_confirmed == 1) && ($session->program_type == 0) ): ?>
-                <p><span class='glyphicon glyphicon-facetime-video'></span> Videostrømming er tilgjenglig</p>
-            <?php endif; ?>
-        </div>
-        <div class="panel-footer">
-            <?php if($session->program_confirmed == 1): ?>
-                <?php if(Auth::check()): ?>
-                    <?php if($session->user_has_program_on_agenda != 0): ?>
-                        <?php echo Form::open(array('action' => array('UserProgramController@remove'), 'method' => 'post')); ?>
+    <?php echo $__env->make('includes.agenda', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
-                        <?php echo Form::hidden('programId',  $session->id  ); ?>
 
-                        <?php echo Form::submit('Fjern fra min agenda', array('class' => 'btn btn-block')); ?>
-
-                        <?php echo Form::close(); ?>
-
-                    <?php else: ?>
-                         <?php echo Form::open(array('action' => array('UserProgramController@remove'), 'method' => 'post')); ?>
-
-                        <?php echo Form::hidden('programId',  $session->id  ); ?>
-
-                        <?php echo Form::submit('Fjern fra min agenda', array('class' => 'btn btn-block')); ?>
-
-                        <?php echo Form::close(); ?>
-
-                    <?php endif; ?>
-                 <?php endif; ?>
-
-            <?php endif; ?>
-       </div>
-       </div>
-    <?php endforeach; ?>
-</div>
-<?php endforeach; ?>
-
- </div>
-
-</body>
-</html>
+ <?php echo $__env->make('includes.bottom', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

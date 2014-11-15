@@ -25,13 +25,8 @@ Route::post('/program/date/remove', array('uses' => 'UserProgramController@remov
 Route::post('/program/add', array('uses' => 'UserProgramController@add'));
 Route::post('/program/remove', array('uses' => 'UserProgramController@remove'));
 
-//Route::get('/program/date/1', function() { return View::make('date.1'); } );
-//Route::get('/program/date/2', function() { return View::make('date.1'); } );
-
 Route::get('/program/{id}', array('uses' => 'ProgramController@index_id'))->where('id', '[0-9]+');
 
-
-Route::get('/2', function() { return View::make('program.2'); } );
 
 Route::get('/participants', function()  { return View::make('participant-list'); });
 
