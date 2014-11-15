@@ -28,7 +28,7 @@
                                     @endif
 
                                     @if($session->program_confirmed == 1)
-                                           <p><span class="glyphicon glyphicon-zoom-in"></span><a href="program/{{{ $session->id }}}">Les mer</a></p>
+                                           <p><span class="glyphicon glyphicon-zoom-in"></span><a href="/program/{{{ $session->id }}}">Les mer</a></p>
                                    @endif
                                 </div>
                                 <div class="panel-footer">
@@ -86,7 +86,7 @@
                                      @endif
 
                                      @if($session->program_confirmed == 1)
-                                            <p><span class="glyphicon glyphicon-zoom-in"></span><a href="program/{{{ $session->id }}}">Les mer</a></p>
+                                            <p><span class="glyphicon glyphicon-zoom-in"></span><a href="/program/{{{ $session->id }}}">Les mer</a></p>
                                     @endif
                                 </div>
 

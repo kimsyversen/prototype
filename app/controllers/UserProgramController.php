@@ -64,7 +64,7 @@ class UserProgramController extends BaseController {
 
 
         if($success == 1)
-            return Redirect::back()->with('success', 'Sesjonen ble lagt til i personlig agenda');;
+            return Redirect::back()->with('success', 'Sesjonen ble lagt til i min agenda');;
 
         return Redirect::back()->with('error', 'Noe gikk feil');;
 
@@ -78,9 +78,9 @@ class UserProgramController extends BaseController {
         $delete = UserProgramModel::where(array('program_id' => $programId, 'users_id' => $userId))->delete();
 
         if($delete == 1)
-            return Redirect::back()->with('success', 'Sesjonen ble slettet');;
+            return Redirect::to('/profile/agenda')->with('success', 'Sesjonen ble slettet fra min agenda');;
 
-        return Redirect::back()->with('error', 'Noe gikk feil');;
+        return Redirect::to('/profile/agenda')->with('error', 'Noe gikk feil');;
 
     }
 
