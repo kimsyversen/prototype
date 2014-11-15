@@ -70,7 +70,13 @@
 
                              echo '<div class="panel-footer">';
                                  if($session->program_confirmed == 1)
-                                     echo '<button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-plus"></span>Legg til i min agenda</button>';
+                                 ?>
+                                 @if(Auth::check())
+                                     <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-plus"></span>Legg til i min agenda</button>
+                                 @else
+                                      <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-plus"></span><a href="/users/login">Logg inn for å legge til i min agenda</button>
+                                 @endif
+                                     <?php
                              echo '</div>';
                          echo '</div>';
                      }
