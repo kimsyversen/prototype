@@ -24,7 +24,7 @@
                                     @endif
 
                                     @if( ($session->program_confirmed == 1) && ($session->program_type == 0) )
-                                        <p><span class='glyphicon glyphicon-facetime-video'></span> Videostrømming er tilgjenglig</p>
+                                        <!-- <p><span class='glyphicon glyphicon-facetime-video'></span> Videostrømming er tilgjenglig</p> -->
                                     @endif
 
                                     @if($session->program_confirmed == 1)
@@ -82,7 +82,7 @@
                                      @endif
 
                                      @if( ($session->program_confirmed == 1) && ($session->program_type == 0) )
-                                         <p><span class='glyphicon glyphicon-facetime-video'></span> Videostrømming er tilgjenglig</p>
+                                         <!-- <p><span class='glyphicon glyphicon-facetime-video'></span> Videostrømming er tilgjenglig</p> -->
                                      @endif
 
                                      @if($session->program_confirmed == 1)
