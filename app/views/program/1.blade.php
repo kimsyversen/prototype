@@ -11,8 +11,6 @@
         @yield('body')
     <div class="col-xs-12 col-sm-9">
 
-         {{{ print_r($items) }}}
-
          @foreach ($items as $item)
          <h2>Detaljinformasjon om {{{ $item->title }}}</h2>
 

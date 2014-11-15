@@ -16,6 +16,14 @@ class ProgramController extends BaseController{
             ->distinct()
             ->get();
 
+        $programsForUsers = null;
+
+        if(Auth::check())
+            $programsForUsers = DB::table('user_program')->select('program_id as id')
+                ->where('users_id', '=', Auth::id())
+                ->get();
+
+
         foreach($items as $item)
         {
 
@@ -33,6 +41,20 @@ class ProgramController extends BaseController{
             $sessions[$item->pid]['time_to'] = $time[0]->time_to;
             $sessions[$item->pid]['confirmed'] = $time[0]->program_confirmed;
             $sessions[$item->pid]['data'] = $time;
+
+
+            foreach($sessions[$item->pid]['data'] as $s)
+            {
+                if(Auth::check())
+                {
+                    $onAgenda = UserProgramModel::where(array('program_id' => $s->id, 'users_id' => Auth::id()))->first();
+
+                    if(!is_null($onAgenda))
+                        $s->user_has_program_on_agenda = $s->id;
+                    else
+                        $s->user_has_program_on_agenda = 0;
+                }
+            }
         }
 
         return View::make('program')->with('items', $sessions);

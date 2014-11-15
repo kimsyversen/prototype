@@ -19,6 +19,9 @@ Route::get('/program/date', array('uses' => 'ProgramController@view_date'));
 Route::post('/program/date', array('uses' => 'ProgramController@view_date'));
 
 
+Route::post('/program/add', array('uses' => 'UserProgramController@add'));
+Route::post('/program/remove', array('uses' => 'UserProgramController@remove'));
+
 //Route::get('/program/date/1', function() { return View::make('date.1'); } );
 //Route::get('/program/date/2', function() { return View::make('date.1'); } );
 
@@ -37,7 +40,8 @@ Route::get('/map', function()  { return View::make('maps'); });
 
 Route::get('/profile/messages', function()  { return View::make('profile-inbox'); });
 
-Route::get('/profile/agenda', function()  { return View::make('personal-agenda'); });
+Route::get('/profile/agenda', array('uses' => 'UserProgramController@index'));
+
 //
 
 // Confide routes

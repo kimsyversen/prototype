@@ -27,16 +27,21 @@
                      <li><a href="/map">Kart</a></li>
                       @if (Auth::check())
                         <li><a href="/users/profile">Profile</a></li>
+                        <li><a href="/users/logout">Logg ut</a></li>
 
                      @else
-                     <li><a href="/users/login">Login</a></li>
+                     <li><a href="/users/login">Logg inn</a></li>
+                     <li><a href="/users/create">Lag konto</a></li>
                      @endif
-                     <li><a href="/users/create">Sign Up</a></li>
+
             </ul>
         </div>
 
-{{HTML::script('http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js')}}
-{{HTML::script('http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js')}}
-{{HTML::script('js/bootstrap-select.js')}}
+        {{HTML::script('http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js')}}
+        {{HTML::script('http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js')}}
+        {{HTML::script('js/bootstrap-select.js')}}
 
-{{HTML::script('js/scripts.js')}}
+        {{HTML::script('js/scripts.js')}}
+
+<div class="col-xs-12 col-sm-9">
+        @include('includes.messages')
