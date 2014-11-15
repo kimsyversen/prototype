@@ -5,34 +5,23 @@
     </head>
     <body>
         @include('includes.menu')
-
-
-
         @yield('body')
-    <div class="col-xs-12 col-sm-9">
+        @foreach ($items as $item)
+            <h3>Detaljinformasjon om {{{ $item->title }}}</h3>
 
-         @foreach ($items as $item)
-         <h2>Detaljinformasjon om {{{ $item->title }}}</h2>
-
-              <div class="panel panel-default">
-
-
+            <div class="panel panel-default">
                   <div class="panel-body">
                       <h4> Dato, tid og sted
-                      @if ($item->program_confirmed == 0)
-                                        <span class='badge'>Kansellert</span>
-                                        </h4>
-                                        @endif
+                            @if ($item->program_confirmed == 0)
+                                  <span class='badge'>Kansellert</span>
+                            @endif
+                       </h4>
                       <p><span class="glyphicon glyphicon-calendar">Dato:</span> {{{ $item->date }}}
                       <p><span class="glyphicon glyphicon-time">Tid:</span>  {{{ $item->time_from  }}} - {{{ $item->time_to }}}
                       <p><span class='glyphicon glyphicon-globe'>Rom: {{{ $item->program_location }}} </span>
-
-
                   </div>
-              </div>
-            @endforeach
-
-
+             </div>
+        @endforeach
 
         <div class="panel panel-default">
             <div class="panel-body">
@@ -43,55 +32,41 @@
 
         <div class="panel panel-default">
             <div class="panel-body">
-                <h4>Videostrømming</h4>
-                    @if ($item->program_confirmed == 1)
-                          <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-plus"></span>Videostrømming er tilgjenglig</button>
-
-                    @else
-                         <p>Videostrømming ikke tilgjenglig
-                    @endif
-
-            </div>
-        </div>
-
-        <div class="panel panel-default">
-            <div class="panel-body">
                 <h4>Personlig</h4>
-                <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-plus"></span>Legg til i min agenda</button>
-                <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-plus"></span>Lag notat</button>
+               <div class="panel-footer">
+                   @if($item->program_confirmed == 1)
+                       @if(Auth::check())
+                           @if($item->user_has_program_on_agenda != 0)
+                               {{ Form::open(array('action' => array('UserProgramController@remove'), 'method' => 'post')) }}
+                               {{ Form::hidden('programId',  $item->id  ) }}
+                               {{ Form::submit('Fjern fra min agenda', array('class' => 'btn btn-block')) }}
+                               {{ Form::close() }}
+                           @else
+                                {{ Form::open(array('action' => array('UserProgramController@add'), 'method' => 'post')) }}
+                               {{ Form::hidden('programId',  $item->id  ) }}
+                               {{ Form::submit('Legg til i min agenda', array('class' => 'btn btn-block')) }}
+                               {{ Form::close() }}
+                           @endif
+                       @else
+                               {{ Form::open(array('action' => array('UsersController@login'), 'method' => 'get')) }}
+                               {{ Form::hidden('programId',  $item->id  ) }}
+                               {{ Form::submit('Logg inn for å legge til i min agenda', array('class' => 'btn btn-block')) }}
+                               {{ Form::close() }}
+                       @endif
+                   @endif
+              </div>
+                <!-- <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-plus"></span>Lag notat</button> -->
             </div>
         </div>
 
-      <div class="panel panel-default">
-            <div class="panel-body">
-                <h4>Sosialt</h4>
-
-                <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-comment"></span>Del på Twitter</button>
-                <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-comment"></span>Del på Facebook</button>
-            </div>
-        </div>
-
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <h4>Tilbakemelding</h4>
-                <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-pencil"></span>Delta i poll</button>
-                <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-pencil"></span>Si hva du synes om sesjonen</button>
-            </div>
-        </div>
-
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <h4>Foredragsholder</h4>
-
+        @if ($item->program_speaker != "null")
+           <div class="panel panel-default">
+                <div class="panel-body">
+                    <h4>Foredragsholder</h4>
                         <h5>{{{ $item->program_speaker }}}</h5>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat ultricies viverra. Phasellus leo neque, convallis sed posuere a, maximus fringilla erat. Quisque finibus congue dui nec ornare. Morbi in iaculis risus. Nulla facilisi. Etiam finibus purus quis placerat porttitor. Aenean imperdiet, lectus eget mollis semper, elit lectus porttitor dolor, eget cursus ex lorem eu justo. Maecenas aliquet vehicula quam ut pharetra. Morbi urna dui, tempor ut efficitur vel, accumsan quis justo. Donec fringilla aliquam nisl, et fringilla ante vestibulum eget. Aliquam fringilla vitae metus in vulputate.
-
-                           Fusce ac suscipit purus. Aenean blandit rutrum congue. Aliquam fringilla vestibulum lobortis. Aliquam id ex tincidunt, ullamcorper eros eget, dignissim felis. Nam tellus leo, rutrum eu nisl non, ultrices faucibus libero. Quisque orci mauris, gravida vitae laoreet eu, cursus non dolor. Sed faucibus quis sem ac mollis. Cras rutrum sodales neque sit amet dapibus. Donec lobortis dignissim justo, et sollicitudin odio molestie non. Nunc eleifend nisl nulla, et tincidunt eros rhoncus vitae.</p>
-
+                </div>
             </div>
-        </div>
-
-    </div>
+        @endif
+ </div>
     </body>
 </html>

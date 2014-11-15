@@ -31,8 +31,8 @@
                     <!-- <li><a href="/users/profile">Profile</a></li> -->
                     <li><a href="/users/logout">Logg ut</a></li>
                  @else
-                     <li><a href="/users/login">Logg inn</a></li>
-                     <li><a href="/users/create">Lag konto</a></li>
+                     <li><a href="/users/login">Logg inn på brukerkonto</a></li>
+                     <li><a href="/users/create">Lag brukerkonto</a></li>
                  @endif
 
             </ul>

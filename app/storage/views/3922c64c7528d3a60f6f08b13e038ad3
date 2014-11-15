@@ -5,39 +5,25 @@
     </head>
     <body>
         <?php echo $__env->make('includes.menu', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-
-
-
         <?php echo $__env->yieldContent('body'); ?>
-    <div class="col-xs-12 col-sm-9">
+        <?php foreach($items as $item): ?>
+            <h3>Detaljinformasjon om <?php echo e($item->title); ?></h3>
 
-         <?php echo e(print_r($items)); ?>
-
-
-         <?php foreach($items as $item): ?>
-         <h2>Detaljinformasjon om <?php echo e($item->title); ?></h2>
-
-              <div class="panel panel-default">
-
-
+            <div class="panel panel-default">
                   <div class="panel-body">
                       <h4> Dato, tid og sted
-                      <?php if($item->program_confirmed == 0): ?>
-                                        <span class='badge'>Kansellert</span>
-                                        </h4>
-                                        <?php endif; ?>
+                            <?php if($item->program_confirmed == 0): ?>
+                                  <span class='badge'>Kansellert</span>
+                            <?php endif; ?>
+                       </h4>
                       <p><span class="glyphicon glyphicon-calendar">Dato:</span> <?php echo e($item->date); ?>
 
                       <p><span class="glyphicon glyphicon-time">Tid:</span>  <?php echo e($item->time_from); ?> - <?php echo e($item->time_to); ?>
 
                       <p><span class='glyphicon glyphicon-globe'>Rom: <?php echo e($item->program_location); ?> </span>
-
-
                   </div>
-              </div>
-            <?php endforeach; ?>
-
-
+             </div>
+        <?php endforeach; ?>
 
         <div class="panel panel-default">
             <div class="panel-body">
@@ -49,55 +35,53 @@
 
         <div class="panel panel-default">
             <div class="panel-body">
-                <h4>Videostrømming</h4>
-                    <?php if($item->program_confirmed == 1): ?>
-                          <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-plus"></span>Videostrømming er tilgjenglig</button>
-
-                    <?php else: ?>
-                         <p>Videostrømming ikke tilgjenglig
-                    <?php endif; ?>
-
-            </div>
-        </div>
-
-        <div class="panel panel-default">
-            <div class="panel-body">
                 <h4>Personlig</h4>
-                <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-plus"></span>Legg til i min agenda</button>
-                <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-plus"></span>Lag notat</button>
+               <div class="panel-footer">
+                   <?php if($item->program_confirmed == 1): ?>
+                       <?php if(Auth::check()): ?>
+                           <?php if($item->user_has_program_on_agenda != 0): ?>
+                               <?php echo Form::open(array('action' => array('UserProgramController@remove'), 'method' => 'post')); ?>
+
+                               <?php echo Form::hidden('programId',  $item->id  ); ?>
+
+                               <?php echo Form::submit('Fjern fra min agenda', array('class' => 'btn btn-block')); ?>
+
+                               <?php echo Form::close(); ?>
+
+                           <?php else: ?>
+                                <?php echo Form::open(array('action' => array('UserProgramController@add'), 'method' => 'post')); ?>
+
+                               <?php echo Form::hidden('programId',  $item->id  ); ?>
+
+                               <?php echo Form::submit('Legg til i min agenda', array('class' => 'btn btn-block')); ?>
+
+                               <?php echo Form::close(); ?>
+
+                           <?php endif; ?>
+                       <?php else: ?>
+                               <?php echo Form::open(array('action' => array('UsersController@login'), 'method' => 'get')); ?>
+
+                               <?php echo Form::hidden('programId',  $item->id  ); ?>
+
+                               <?php echo Form::submit('Logg inn for å legge til i min agenda', array('class' => 'btn btn-block')); ?>
+
+                               <?php echo Form::close(); ?>
+
+                       <?php endif; ?>
+                   <?php endif; ?>
+              </div>
+                <!-- <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-plus"></span>Lag notat</button> -->
             </div>
         </div>
 
-      <div class="panel panel-default">
-            <div class="panel-body">
-                <h4>Sosialt</h4>
-
-                <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-comment"></span>Del på Twitter</button>
-                <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-comment"></span>Del på Facebook</button>
-            </div>
-        </div>
-
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <h4>Tilbakemelding</h4>
-                <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-pencil"></span>Delta i poll</button>
-                <button type="button" class="btn  btn-block" style="opacity:1; background: rgba(39, 48, 66, 0.1) "><span class="glyphicon glyphicon-pencil"></span>Si hva du synes om sesjonen</button>
-            </div>
-        </div>
-
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <h4>Foredragsholder</h4>
-
+        <?php if($item->program_speaker != "null"): ?>
+           <div class="panel panel-default">
+                <div class="panel-body">
+                    <h4>Foredragsholder</h4>
                         <h5><?php echo e($item->program_speaker); ?></h5>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat ultricies viverra. Phasellus leo neque, convallis sed posuere a, maximus fringilla erat. Quisque finibus congue dui nec ornare. Morbi in iaculis risus. Nulla facilisi. Etiam finibus purus quis placerat porttitor. Aenean imperdiet, lectus eget mollis semper, elit lectus porttitor dolor, eget cursus ex lorem eu justo. Maecenas aliquet vehicula quam ut pharetra. Morbi urna dui, tempor ut efficitur vel, accumsan quis justo. Donec fringilla aliquam nisl, et fringilla ante vestibulum eget. Aliquam fringilla vitae metus in vulputate.
-
-                           Fusce ac suscipit purus. Aenean blandit rutrum congue. Aliquam fringilla vestibulum lobortis. Aliquam id ex tincidunt, ullamcorper eros eget, dignissim felis. Nam tellus leo, rutrum eu nisl non, ultrices faucibus libero. Quisque orci mauris, gravida vitae laoreet eu, cursus non dolor. Sed faucibus quis sem ac mollis. Cras rutrum sodales neque sit amet dapibus. Donec lobortis dignissim justo, et sollicitudin odio molestie non. Nunc eleifend nisl nulla, et tincidunt eros rhoncus vitae.</p>
-
+                </div>
             </div>
-        </div>
-
-    </div>
+        <?php endif; ?>
+ </div>
     </body>
 </html>

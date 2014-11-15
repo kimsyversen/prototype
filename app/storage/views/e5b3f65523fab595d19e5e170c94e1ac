@@ -5,7 +5,7 @@
     <h3>Konferanseprogram</h3>
 <div class="well">
     <div class="form-group">
-     <?php echo Form::open(array('action' => array('ProgramController@view_date'), 'method' => 'post')); ?>
+     <?php echo Form::open(array('action' => array('ProgramController@view_date'), 'method' => 'post', 'id' => 'formen')); ?>
 
      <?php echo Form::label('in_program','Velg dag'); ?>
 
@@ -20,13 +20,14 @@
 
      <?php echo Form::select('date', $progs, 'date_id'); ?>
 
-     <?php echo Form::submit('Vis program for valgt dato', array('class' => 'btn btn-primary')); ?>
-
      <?php echo Form::close(); ?>
 
 
     </div>
  </div>
+
+
+
 
 <?php echo $__env->make('includes.agenda', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 

@@ -6,53 +6,38 @@
     <body>
         <?php echo $__env->make('includes.menu', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
         <?php echo $__env->yieldContent('body'); ?>
-<h3>Meldinger</h3>
-<div class="container-fluid">
-    <div class="row">
+<h3>Meldingsinnboks</h3>
+
+<div class="panel panel-primary">
+
+ <div class="panel-heading"  style="overflow:hidden;">
+      <h4 class="panel-title">Melding fra administrasjonen <span style="float: right"> 28/10, 15:30</span></h4>
+  </div>
+  <div class="panel-body">
+    Gratulerer, du har vunnet en premie. Møt opp i informasjonen for å motta den.
+  </div>
+</div>
 
 
-                <table class="table">
-                    <tr>
-                        <th class="field-label col-xs-2 col-sm-2 col-md-2 col-lg-1 ">
-                            <label>Fra</label>
-                        </th>
+<div class="panel panel-primary">
+ <div class="panel-heading"  style="overflow:hidden;">
+      <h4 class="panel-title">Melding fra administrasjonen <span style="float: right"> 28/10, 15:30</span></h4>
+  </div>
+  <div class="panel-body">
+    Det har blitt funnet en grå lommebok. Dens eier kan melde seg i informasjonen.
+  </div>
+</div>
 
-                        <th class="field-label col-xs-10 col-sm-10 col-md-10 col-lg-10 ">
-                            <label>Melding</label>
-                        </th>
-                    </tr>
+<div class="panel panel-primary">
+ <div class="panel-heading"  style="overflow:hidden;">
+      <h4 class="panel-title">Melding fra administrasjonen <span style="float: right"> 28/10, 15:30</span></h4>
+  </div>
+  <div class="panel-body">
+    Konferansen er nå i gang. Vi håper du vil få det flott.
+  </div>
+</div>
 
-                    <tr>
-                        <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2 ">
-                            Administration
-                        </td>
-                        <td class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                            Endringer i lunsj.
-                        </td>
-                    </tr>
 
-                     <tr>
-                         <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2 ">
-                             Administration
-                         </td>
-                         <td class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                             Gratulerer, du har vunnet konkurransen.
-                         </td>
-                     </tr>
-
-                    <tr>
-                        <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2 ">
-                            Administration
-                        </td>
-                        <td class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                            Gi feedback om din første dag!
-                        </td>
-                    </tr>
-
-                    </table>
-
-    </div>
-    </div>
  <?php echo $__env->make('includes.bottom', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
 

@@ -10,4 +10,6 @@ use Zizaco\Confide\ConfideUserInterface;
 class User extends Eloquent implements ConfideUserInterface
 {
     use ConfideUser;
+    protected $table = 'users';
+    protected $fillable = ['first_name','last_name','email','password'];
 }

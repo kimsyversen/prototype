@@ -40,6 +40,12 @@ Route::get('/profile/messages', function()  { return View::make('profile-inbox')
 
 Route::get('/profile/agenda', array('uses' => 'UserProgramController@index'));
 
+
+Route::get('/profile', array('before'=> 'auth', 'uses' => 'ProfileController@index'));
+Route::get('/profile/edit', array('before'=>'auth', 'uses' => 'ProfileController@edit'));
+Route::post('profile/edit/name', array('before'=> 'auth', 'uses' => 'ProfileController@edit_name'));
+
+
 //
 
 // Confide routes

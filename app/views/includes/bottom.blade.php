@@ -13,5 +13,13 @@
 
 })(jQuery);
 </script>-->
+
+ <script>
+ $( document ).ready(function() {
+     $('#formen').on('change', function(e){
+         $(this).closest('form').submit();
+     });
+ });
+ </script>
 </body>
 </html>
