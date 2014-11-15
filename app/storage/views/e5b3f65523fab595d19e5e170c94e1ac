@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-    <html>
-    <head>
-        <?php echo $__env->make('includes.head', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-    </head>
+<?php echo $__env->make('includes.top', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     <body>
         <?php echo $__env->make('includes.menu', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
         <?php echo $__env->yieldContent('body'); ?>
-
-
-<h2>Konferanseprogram</h2>
+    <h3>Konferanseprogram</h3>
 <div class="well">
     <div class="form-group">
      <?php echo Form::open(array('action' => array('ProgramController@view_date'), 'method' => 'post')); ?>
@@ -33,7 +27,8 @@
 
     </div>
  </div>
-    <?php echo $__env->make('includes.agenda', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+<?php echo $__env->make('includes.agenda', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
 
  <?php echo $__env->make('includes.bottom', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

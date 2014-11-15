@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-    <html>
-    <head>
-        @include('includes.head')
-    </head>
+@include('includes.top')
     <body>
         @include('includes.menu')
         @yield('body')
-
-
-<h2>Konferanseprogram</h2>
+    <h3>Konferanseprogram</h3>
 <div class="well">
     <div class="form-group">
      {{ Form::open(array('action' => array('ProgramController@view_date'), 'method' => 'post')) }}
@@ -28,7 +22,8 @@
 
     </div>
  </div>
-    @include('includes.agenda')
+
+@include('includes.agenda')
 
 
  @include('includes.bottom')

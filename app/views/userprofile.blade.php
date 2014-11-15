@@ -6,13 +6,13 @@
 <body>
 @include('includes.menu')
 @yield('body')
-<div class="col-xs-12 col-sm-9">
-<div class="well">
 <h3>Rediger brukerprofil</h3>
+<div class="well">
+
 @section('body')
 
     <div class="well">
-        <h4>You</h4>
+        <h4>Deg</h4>
         <p>Name: {{ Confide::user()->first_name }} {{ Confide::user()->last_name }}</p>
         <p>Email:{{ Confide::user()->email }}
 

@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-    <html>
-    <head>
-        @include('includes.head')
-    </head>
-    <body>
-        @include('includes.menu')
-        @yield('body')
-        <div class="col-xs-12 col-sm-9">
-        <div class="container-fluid">
 
+@include('includes.top')
+@include('includes.menu')
 
-           
-                <img src="https://dl.dropboxusercontent.com/u/240992/nokios-kart.png">
-           
-        </div>
+@yield('body')
+    <h3>Kart over konferanseområde</h3>
+    <img src="https://dl.dropboxusercontent.com/u/240992/nokios-kart.png">
 
-
-    </body>
-</html>
+@include('includes.bottom')

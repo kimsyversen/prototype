@@ -6,7 +6,11 @@
 <body>
 @include('includes.menu')
 @yield('body')
-<h3>Personlig agenda</h3>
+
+
+
+
+<h3>Min agenda</h3>
 
     @if( count($items) == 0)
         <p>Du har ingen sesjoner i din agenda. Gå til programmet for å legge til.</p>

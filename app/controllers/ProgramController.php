@@ -27,6 +27,7 @@ class ProgramController extends BaseController{
                 ->where('program.pid', '=', $item->pid)
                 ->distinct()
                 ->get();
+            $sessions[$item->pid]['count'] = count($time);
             $sessions[$item->pid]['date'] = $time[0]->date;
             $sessions[$item->pid]['pid'] = $item->pid;
             $sessions[$item->pid]['time_from'] = $time[0]->time_from;
@@ -47,6 +48,8 @@ class ProgramController extends BaseController{
                         $s->user_has_program_on_agenda = 0;
                 }
             }
+
+
         }
 
         return View::make('program')->with('items', $sessions);
@@ -97,6 +100,7 @@ class ProgramController extends BaseController{
                         ->where('program.pid', '=', $item->pid)
                         ->distinct()
                         ->get();
+                    $sessions[$item->pid]['count'] = count($time);
                     $sessions[$item->pid]['date'] = $time[0]->date;
                     $sessions[$item->pid]['pid'] = $item->pid;
                     $sessions[$item->pid]['time_from'] = $time[0]->time_from;
@@ -142,6 +146,7 @@ class ProgramController extends BaseController{
                         ->where('program.pid', '=', $item->pid)
                         ->distinct()
                         ->get();
+                    $sessions[$item->pid]['count'] = count($time);
                     $sessions[$item->pid]['date'] = $time[0]->date;
                     $sessions[$item->pid]['pid'] = $item->pid;
                     $sessions[$item->pid]['time_from'] = $time[0]->time_from;
@@ -181,6 +186,7 @@ class ProgramController extends BaseController{
                         ->where('program.pid', '=', $item->pid)
                         ->distinct()
                         ->get();
+                    $sessions[$item->pid]['count'] = count($time);
                     $sessions[$item->pid]['date'] = $time[0]->date;
                     $sessions[$item->pid]['pid'] = $item->pid;
                     $sessions[$item->pid]['time_from'] = $time[0]->time_from;
@@ -219,6 +225,7 @@ class ProgramController extends BaseController{
                     ->where('program.pid', '=', $item->pid)
                     ->distinct()
                     ->get();
+                $sessions[$item->pid]['count'] = count($time);
                 $sessions[$item->pid]['date'] = $time[0]->date;
                 $sessions[$item->pid]['pid'] = $item->pid;
                 $sessions[$item->pid]['time_from'] = $time[0]->time_from;

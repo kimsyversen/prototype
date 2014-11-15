@@ -26,7 +26,7 @@ class UserProgramController extends BaseController {
                 ->where('program.id', '=', $item->id)
                 ->distinct()
                 ->get();
-
+            $sessions[$item->id]['count'] = count($time);
             $sessions[$item->id]['date'] = $time[0]->date;
             $sessions[$item->id]['id'] = $item->id;
             $sessions[$item->id]['time_from'] = $time[0]->time_from;
