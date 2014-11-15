@@ -16,7 +16,7 @@
 
                             <div class="panel panel-primary">
                                 <div class="panel-heading" style="overflow:hidden;">
-                                    <h4 class="panel-title">{{{ $session->title }}} <span style="float: right"> {{{ $sessions['time_from']   }}} - {{{ $sessions['time_to']  }}}</span></h4>
+                                    <h4 class="panel-title">{{{ $session->title }}} <span style="float: right"> {{{ $session->date }}}, {{{ $sessions['time_from']   }}} - {{{ $sessions['time_to']  }}}</span></h4>
                                 </div>
                                 <div class="panel-body">
                                     @if($session->program_confirmed == 1)
