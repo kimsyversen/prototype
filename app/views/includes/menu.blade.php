@@ -34,7 +34,8 @@
                      <li><a href="/users/login">Logg inn på brukerkonto</a></li>
                      <li><a href="/users/create">Lag brukerkonto</a></li>
                  @endif
-
+                 <hr>
+                 <li><a href="/newsfeed">Nyhetsfeed</a></li>
             </ul>
         </div>
 <div class="col-xs-12 col-sm-9">

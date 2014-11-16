@@ -13,6 +13,9 @@
 Route::get('/', function() { return View::make('home'); } );
 Route::get('/home', function() { return View::make('home'); } );
 
+Route::get('/newsfeed', function() { return View::make('newsfeed'); } );
+
+
 Route::get('/program', array('uses' => 'ProgramController@index'));
 
 Route::get('/program/date', array('uses' => 'ProgramController@view_date'));
