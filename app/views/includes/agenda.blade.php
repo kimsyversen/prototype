@@ -37,18 +37,36 @@
                                             @if($session->user_has_program_on_agenda != 0)
                                                 {{ Form::open(array('action' => array('UserProgramController@remove'), 'method' => 'post')) }}
                                                 {{ Form::hidden('programId',  $session->id  ) }}
-                                                {{ Form::submit('Fjern fra min agenda', array('class' => 'btn btn-block')) }}
+                                                {{ Form::button(
+                                                '<span class="glyphicon glyphicon-minus"></span>Fjern fra min agenda',
+
+                                                array(
+                                                'class'=>'btn btn-block',
+                                                'type'=>'submit'))
+                                                }}
                                                 {{ Form::close() }}
                                             @else
-                                                 {{ Form::open(array('action' => array('UserProgramController@add'), 'method' => 'post')) }}
+                                                {{ Form::open(array('action' => array('UserProgramController@add'), 'method' => 'post')) }}
                                                 {{ Form::hidden('programId',  $session->id  ) }}
-                                                {{ Form::submit('Legg til fra min agenda', array('class' => 'btn btn-block')) }}
+                                                {{ Form::button(
+                                                '<span class="glyphicon glyphicon-plus"></span>Legg til fra min agenda',
+
+                                                array(
+                                                'class'=>'btn btn-block',
+                                                'type'=>'submit'))
+                                                }}
                                                 {{ Form::close() }}
                                             @endif
                                         @else
                                                 {{ Form::open(array('action' => array('UsersController@login'), 'method' => 'get')) }}
                                                 {{ Form::hidden('programId',  $session->id  ) }}
-                                                {{ Form::submit('Logg inn for å legge til i min agenda', array('class' => 'btn btn-block')) }}
+                                                {{ Form::button(
+                                                '<span class="glyphicon glyphicon-plus"></span>Logg inn for å legge til i min agenda',
+
+                                                array(
+                                                'class'=>'btn btn-block',
+                                                'type'=>'submit'))
+                                                }}
                                                 {{ Form::close() }}
                                         @endif
                                     @endif
@@ -90,28 +108,46 @@
                                     @endif
                                 </div>
 
-                                <div class="panel-footer">
-                                    @if($session->program_confirmed == 1)
+                                    <div class="panel-footer">
+                                        @if($session->program_confirmed == 1)
                                         @if(Auth::check())
-                                            @if($session->user_has_program_on_agenda != 0)
-                                                {{ Form::open(array('action' => array('UserProgramController@remove'), 'method' => 'post')) }}
-                                                {{ Form::hidden('programId',  $session->id  ) }}
-                                                {{ Form::submit('Fjern fra min agenda', array('class' => 'btn btn-block')) }}
-                                                {{ Form::close() }}
-                                            @else
-                                                 {{ Form::open(array('action' => array('UserProgramController@add'), 'method' => 'post')) }}
-                                                {{ Form::hidden('programId',  $session->id  ) }}
-                                                {{ Form::submit('Legg til i min agenda', array('class' => 'btn btn-block')) }}
-                                                {{ Form::close() }}
-                                            @endif
+                                        @if($session->user_has_program_on_agenda != 0)
+                                        {{ Form::open(array('action' => array('UserProgramController@remove'), 'method' => 'post')) }}
+                                        {{ Form::hidden('programId',  $session->id  ) }}
+                                        {{ Form::button(
+                                        '<span class="glyphicon glyphicon-minus"></span>Fjern fra min agenda',
+
+                                        array(
+                                        'class'=>'btn btn-block',
+                                        'type'=>'submit'))
+                                        }}
+                                        {{ Form::close() }}
                                         @else
-                                                {{ Form::open(array('action' => array('UsersController@login'), 'method' => 'get')) }}
-                                                {{ Form::hidden('programId',  $session->id  ) }}
-                                                {{ Form::submit('Logg inn for å legge til i min agenda', array('class' => 'btn btn-block')) }}
-                                                {{ Form::close() }}
+                                        {{ Form::open(array('action' => array('UserProgramController@add'), 'method' => 'post')) }}
+                                        {{ Form::hidden('programId',  $session->id  ) }}
+                                        {{ Form::button(
+                                        '<span class="glyphicon glyphicon-plus"></span>Legg til fra min agenda',
+
+                                        array(
+                                        'class'=>'btn btn-block',
+                                        'type'=>'submit'))
+                                        }}
+                                        {{ Form::close() }}
                                         @endif
-                                    @endif
-                               </div>
+                                        @else
+                                        {{ Form::open(array('action' => array('UsersController@login'), 'method' => 'get')) }}
+                                        {{ Form::hidden('programId',  $session->id  ) }}
+                                        {{ Form::button(
+                                        '<span class="glyphicon glyphicon-plus"></span>Logg inn for å legge til i min agenda',
+
+                                        array(
+                                        'class'=>'btn btn-block',
+                                        'type'=>'submit'))
+                                        }}
+                                        {{ Form::close() }}
+                                        @endif
+                                        @endif
+                                    </div>
 
 
 
