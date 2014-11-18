@@ -61,3 +61,9 @@ body {
     z-index: 100;
     border-top: 0;
 }*/
+
+/*#sidebar {
+    position: -webkit-sticky;
+    top: 50px;
+    z-index: 1;
+}*
