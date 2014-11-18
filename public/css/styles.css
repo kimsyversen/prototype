@@ -52,3 +52,12 @@ body {
     padding-top:0;
   }
 }
+
+/*.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 100px;
+    z-index: 100;
+    border-top: 0;
+}*/
